@@ -1,0 +1,127 @@
+@charset "utf-8";
+@font-face {
+  font-family: "game font";
+  src: url("webfonts/game_font/game-font-webfont.woff");
+}
+@font-face {
+  font-family: "alagard";
+  src: url("webfonts/alagard/alagard-webfont.woff");
+}
+@font-face {
+  font-family: "MS UI Gothic";
+  src: url("webfonts/MS-UIGothic.ttf");
+}
+body {
+  font-family: MS-UIGothic, monospace;
+  font-size: 10px;
+  margin-left: 5px;
+  background-color: #d8d6f2;
+}
+a {
+  color: #e9099b;
+}
+a:visited {
+  color: #99e550;
+}
+h1 {
+  font-family: alagard;
+  font-size: xx-large;
+  font-weight: normal;
+  color: #0e0221;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+h2 {
+  font-family: alagard;
+  color: #0e0221;
+  text-decoration: underline;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+}
+.header {
+  font-family: alagard;
+  font-size: xx-large;
+  position: absolute;
+  margin: 0;
+  left: 754px;
+  top: 124px;
+  color: #0e0221;
+  text-decoration: none;
+}
+.header a,
+a:visited {
+  color: #0e0221;
+}
+#layouti {
+  position: absolute;
+  margin-right: 0px;
+  top: -120px;
+}
+
+#mframe {
+  position: absolute;
+  top: 161px;
+  left: 384px;
+}
+.statusbox {
+  width: 201px;
+  height: 71px;
+  position: absolute;
+  top: 206px;
+  left: 922px;
+  padding: 5px;
+}
+.statusbox a {
+  color: #594e99;
+}
+.statusheader {
+  display: none;
+}
+/*#statuscafe-username {
+	font-family: alagard;
+	font-size: 13.5px;
+	top: 4px;
+	position: relative;
+	left: -3px;
+	width: 189px;
+}*/
+.timeAgo {
+  position: absolute;
+  left: 86px;
+}
+#statuscafe-content {
+  top: 16px;
+  position: relative;
+  left: 1px;
+  text-align: center;
+}
+#nav {
+  width: 186px;
+  height: 234px;
+  position: absolute;
+  top: 161px;
+  left: 178px;
+  padding: 5px;
+}
+#gb {
+  padding: 5px;
+  width: 186px;
+  height: 142px;
+  position: absolute;
+  left: 178px;
+  top: 414px;
+}
+#footer {
+  font-family: game font;
+  position: absolute;
+  top: 631px;
+  left: 756px;
+  color: #7b5fa8;
+  font-size: medium;
+}
+#footer a {
+  color: #594e99;
+}
