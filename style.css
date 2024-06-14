@@ -12,8 +12,8 @@
   src: url("webfonts/MS-UIGothic.ttf");
 }
 body {
-  font-family: MS-UIGothic, monospace;
-  font-size: 10px;
+  font-family: MS UI Gothic;
+  font-size: 13px;
   margin-left: 5px;
   background-color: #d8d6f2;
 }
@@ -51,20 +51,20 @@ h2 {
   color: #0e0221;
   text-decoration: none;
 }
-.header a,
-a:visited {
+.header a, a:visited {
   color: #0e0221;
 }
+
 #layouti {
   position: absolute;
-  margin-right: 0px;
-  top: -120px;
+  top: 159px;
+  left: 173px;
 }
 
 #mframe {
   position: absolute;
   top: 161px;
-  left: 384px;
+  left: 381px;
 }
 .statusbox {
   width: 201px;
@@ -103,15 +103,20 @@ a:visited {
   height: 234px;
   position: absolute;
   top: 161px;
-  left: 178px;
+  left: 175px;
   padding: 5px;
+}
+#nav h2 {
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
 }
 #gb {
   padding: 5px;
   width: 186px;
   height: 142px;
   position: absolute;
-  left: 178px;
+  left: 175px;
   top: 414px;
 }
 #footer {
