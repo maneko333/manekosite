@@ -2,10 +2,10 @@
 <html>
 <head>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="/favicon.gif" rel="icon" type="image/x-icon" />
+  <link href="media/favicon.gif" rel="icon" type="image/x-icon" />
   <style>
      body {
-      background-image: url(bg.png);
+      background-image: url(media/bg.png);
       margin: auto;
     }
   </style>
@@ -16,11 +16,12 @@
   <script src="https://status.cafe/current-status.js?name=maneko" defer></script>
   <script data-goatcounter="https://maneko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <div id="layouti">
-    <img src="LAYOUT.png" />
+    <img src="media/LAYOUT.png" />
   </div>
   <!--title at top-->
-  <a class="header" href="https://maneko.nekoweb.org/">..maneko</a>
-  <!-- statusbox -->
+  <a class="header" href="/home.html" target="mframe">..maneko</a>
+  
+  <!--statusbox-->
   <div class="statusbox">
     <h2 class="statusheader">intrusive thoughts</h2>
     <div id="statuscafe">
@@ -28,6 +29,8 @@
       <div id="statuscafe-content"></div>
     </div>
   </div>
+
+  <!--main frame-->
   <iframe
     src="/home.html"
     name="mframe"
@@ -37,15 +40,27 @@
     width="500"
     scrolling="auto"
   ></iframe>
-  <!-- nav box -->
+
+  <!--nav box-->
   <div id="nav">
     <h2><img src="media/bat.png" /> links n stuff <img src="media/bat-l.png" /></h2>
-    <a href="https://maneko.atabook.org/">guestbook</a>
-  </div>
-  <div id="gb">
+    <ul>
+      <li><a href="/about.html" target="mframe">about me</a></li>
+      <li><a href="https://maneko.atabook.org/" target="mframe">guestbook</a></li>
+    </ul>
   </div>
 
-  <!-- footer -->
+  <!--webrings section-->
+  <div id="webrings">
+    <h2><img src="media/bat.png" /> webrings <img src="media/bat-l.png" /></h2>
+    <!--self-insert webring-->
+      <div id="selfinsertwebring">
+        <script src="showWebring.js"></script>
+      </div>
+    <!--end of self-insert webring-->
+  </div>
+
+  <!--footer-->
   <div id="footer">
     <p>hosted, with love, on <a href="https://nekoweb.org/">nekoweb</a>.</p>
   </div>

@@ -11,36 +11,47 @@
   font-family: "MS UI Gothic";
   src: url("webfonts/MS-UIGothic.ttf");
 }
+
+:root {
+  --green: #99e550;
+  --pink: #e9099b;
+  --dpurple: #594e99;
+  --mpurple: #7b5fa8;
+  --lpurple: #d8d6f2;
+  --dark: #0e0221;
+}
+
 body {
   font-family: MS UI Gothic;
   font-size: 13px;
   margin-left: 5px;
-  background-color: #d8d6f2;
+  background-color: var(--lpurple);
 }
 a {
-  color: #e9099b;
+  color: var(--pink);
 }
 a:visited {
-  color: #99e550;
+  color: var(--green);
 }
 h1 {
   font-family: alagard;
   font-size: xx-large;
   font-weight: normal;
-  color: #0e0221;
+  color: var(--dark);
   padding: 0;
   margin: 0;
   text-decoration: underline;
 }
 h2 {
   font-family: alagard;
-  color: #0e0221;
+  color: var(--dark);
   text-decoration: underline;
   font-weight: normal;
   margin: 0;
   padding: 0;
   font-size: medium;
 }
+
 .header {
   font-family: alagard;
   font-size: xx-large;
@@ -48,11 +59,11 @@ h2 {
   margin: 0;
   left: 754px;
   top: 124px;
-  color: #0e0221;
+  color: var(--dark);
   text-decoration: none;
 }
 .header a, a:visited {
-  color: #0e0221;
+  color: var(--dark);
 }
 
 #layouti {
@@ -75,7 +86,7 @@ h2 {
   padding: 5px;
 }
 .statusbox a {
-  color: #594e99;
+  color: var(--dpurple);
 }
 .statusheader {
   display: none;
@@ -111,22 +122,38 @@ h2 {
   text-align: center;
   padding-bottom: 5px;
 }
-#gb {
+
+#nav ul {
+  list-style-type: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+#webrings {
   padding: 5px;
   width: 186px;
   height: 142px;
   position: absolute;
   left: 175px;
   top: 414px;
+  overflow: auto;
 }
+
+#webrings h2 {
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 6px;
+}
+
 #footer {
   font-family: game font;
   position: absolute;
   top: 631px;
   left: 756px;
-  color: #7b5fa8;
+  color: var(--mpurple);
   font-size: medium;
 }
 #footer a {
-  color: #594e99;
+  color: var(--dpurple);
 }
