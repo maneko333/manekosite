@@ -26,6 +26,7 @@ body {
   font-size: 13px;
   margin-left: 5px;
   background-color: var(--lpurple);
+  position: absolute;
 }
 a {
   color: var(--pink);
@@ -124,15 +125,15 @@ h2 {
 }
 
 #nav ul {
-  list-style-type: none;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 #webrings {
-  padding: 5px;
-  width: 186px;
+  padding: 5px 2px 5px;
+  width: 192px;
   height: 142px;
   position: absolute;
   left: 175px;
@@ -146,9 +147,20 @@ h2 {
   padding-bottom: 6px;
 }
 
+#webrings::-webkit-scrollbar {
+  display: none;
+}
+
+#scroller {
+    width: 192px;
+    height: 82px;
+    background-color: red;
+}
+
 #footer {
   font-family: game font;
   position: absolute;
+  width: auto;
   top: 631px;
   left: 756px;
   color: var(--mpurple);

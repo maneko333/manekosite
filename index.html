@@ -1,68 +1,87 @@
 <!doctype html>
 <html>
-<head>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="media/favicon.gif" rel="icon" type="image/x-icon" />
-  <style>
-     body {
-      background-image: url(media/bg.png);
-      margin: auto;
-    }
-  </style>
-  <meta charset="utf-8" />
-  <title>maneko</title>
-</head>
-<body>
-  <script src="https://status.cafe/current-status.js?name=maneko" defer></script>
-  <script data-goatcounter="https://maneko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-  <div id="layouti">
-    <img src="media/LAYOUT.png" />
-  </div>
-  <!--title at top-->
-  <a class="header" href="/home.html" target="mframe">..maneko</a>
-  
-  <!--statusbox-->
-  <div class="statusbox">
-    <h2 class="statusheader">intrusive thoughts</h2>
-    <div id="statuscafe">
-      <div id="statuscafe-username"></div>
-      <div id="statuscafe-content"></div>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="media/favicon.gif" rel="icon" type="image/x-icon" />
+    <style>
+       body {
+        background-image: url(media/bg.png);
+        margin: auto;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>maneko</title>
+  </head>
+
+  <body>
+    <script
+      src="https://status.cafe/current-status.js?name=maneko"
+      defer
+    ></script>
+    <script
+      data-goatcounter="https://maneko.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+    <div id="layouti">
+      <img src="media/LAYOUT.png" />
     </div>
-  </div>
+    <!--title at top-->
+    <a class="header" href="/home.html" target="mframe">..maneko</a>
 
-  <!--main frame-->
-  <iframe
-    src="/home.html"
-    name="mframe"
-    id="mframe"
-    frameborder="0"
-    height="485px"
-    width="500"
-    scrolling="auto"
-  ></iframe>
+    <!--statusbox-->
+    <div class="statusbox">
+      <h2 class="statusheader">intrusive thoughts</h2>
+      <div id="statuscafe">
+        <div id="statuscafe-username"></div>
+        <div id="statuscafe-content"></div>
+      </div>
+    </div>
 
-  <!--nav box-->
-  <div id="nav">
-    <h2><img src="media/bat.png" /> links n stuff <img src="media/bat-l.png" /></h2>
-    <ul>
-      <li><a href="/about.html" target="mframe">about me</a></li>
-      <li><a href="https://maneko.atabook.org/" target="mframe">guestbook</a></li>
-    </ul>
-  </div>
+    <!--main frame-->
+    <iframe
+      src="/home.html"
+      name="mframe"
+      id="mframe"
+      frameborder="0"
+      height="485px"
+      width="500"
+      scrolling="auto"
+    ></iframe>
 
-  <!--webrings section-->
-  <div id="webrings">
-    <h2><img src="media/bat.png" /> webrings <img src="media/bat-l.png" /></h2>
-    <!--self-insert webring-->
+    <!--nav box-->
+    <div id="nav">
+      <h2>
+        <img src="media/bat.png" /> links n stuff <img src="media/bat-l.png" />
+      </h2>
+      <ul>
+        <li><a href="/about.html" target="mframe">about me</a></li>
+        <li>
+          <a href="https://maneko.atabook.org/" target="mframe">guestbook</a>
+        </li>
+      </ul>
+    </div>
+
+    <!--webrings section-->
+    <div id="webrings">
+      <h2>
+        <img src="media/bat.png" /> webrings <img src="media/bat-l.png" />
+      </h2>
+      <!--self-insert webring-->
       <div id="selfinsertwebring">
         <script src="showWebring.js"></script>
       </div>
-    <!--end of self-insert webring-->
+      <!--end of self-insert webring-->
+    </div>
+
+    <!--button scroller
+  <div id="scroller">
+      
   </div>
 
-  <!--footer-->
-  <div id="footer">
-    <p>hosted, with love, on <a href="https://nekoweb.org/">nekoweb</a>.</p>
-  </div>
-</body>
+footer-->
+    <div id="footer">
+      <p>hosted, with love, on <a href="https://nekoweb.org/">nekoweb</a>.</p>
+    </div>
+  </body>
 </html>
