@@ -32,7 +32,7 @@ a {
   color: var(--pink);
 }
 a:visited {
-  color: var(--green);
+  color: var(--dpurple);
 }
 h1 {
   font-family: alagard;
@@ -54,30 +54,18 @@ h2 {
 }
 
 .header {
-  font-family: alagard;
-  font-size: xx-large;
   position: absolute;
-  margin: 0;
-  left: 754px;
-  top: 124px;
-  color: var(--dark);
-  text-decoration: none;
-}
-.header a, a:visited {
-  color: var(--dark);
+  left: 275px;
+  top: 50px;
 }
 
-#layouti {
+/* side image and thought bubble */
+#portrait {
   position: absolute;
-  top: 159px;
-  left: 173px;
+  left: 900px;
+  top: 196px;
 }
 
-#mframe {
-  position: absolute;
-  top: 161px;
-  left: 381px;
-}
 .statusbox {
   width: 201px;
   height: 71px;
@@ -86,31 +74,37 @@ h2 {
   left: 922px;
   padding: 5px;
 }
+
 .statusbox a {
   color: var(--dpurple);
 }
-.statusheader {
-  display: none;
+
+#statuscafe-username {
+  font-weight: bold;
 }
-/*#statuscafe-username {
-	font-family: alagard;
-	font-size: 13.5px;
-	top: 4px;
-	position: relative;
-	left: -3px;
-	width: 189px;
-}*/
-.timeAgo {
-  position: absolute;
-  left: 86px;
-}
+
 #statuscafe-content {
-  top: 16px;
+  top: 14px;
   position: relative;
   left: 1px;
   text-align: center;
 }
+
+/* main frame */
+#mframe {
+  position: absolute;
+  background-color: var(--lpurple);
+  border: solid 2px white;
+  border-radius: 2px;
+  top: 161px;
+  left: 381px;
+}
+
+/* links sidebar */
 #nav {
+  background-color: var(--lpurple);
+  border: solid 2px white;
+  border-radius: 2px;
   width: 186px;
   height: 234px;
   position: absolute;
@@ -118,6 +112,7 @@ h2 {
   left: 175px;
   padding: 5px;
 }
+
 #nav h2 {
   text-decoration: none;
   text-align: center;
@@ -125,16 +120,20 @@ h2 {
 }
 
 #nav ul {
-    list-style-type: none;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
 }
 
+/* webrings sidebar */
 #webrings {
+  background-color: var(--lpurple);
+  border: solid 2px white;
+  border-radius: 2px;
   padding: 5px 2px 5px;
   width: 192px;
-  height: 142px;
+  height: 222px;
   position: absolute;
   left: 175px;
   top: 414px;
@@ -151,21 +150,16 @@ h2 {
   display: none;
 }
 
-#scroller {
-    width: 192px;
-    height: 82px;
-    background-color: red;
+/* footer */
+#footer {
+  color: var(--mpurple);
+  font-family: game font;
+  font-size: medium;
+  position: relative;
+  top: 637px;
+  left: 747px;
 }
 
-#footer {
-  font-family: game font;
-  position: absolute;
-  width: auto;
-  top: 631px;
-  left: 756px;
-  color: var(--mpurple);
-  font-size: medium;
-}
 #footer a {
-  color: var(--dpurple);
+  color: var(--pink)
 }
