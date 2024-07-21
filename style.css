@@ -22,8 +22,8 @@
 }
 
 body {
-  font-family: MS UI Gothic;
-  font-size: 13px;
+  font-family: consolas;
+  font-size: 11px;
   margin-left: 5px;
   background-color: var(--lpurple);
   position: absolute;
