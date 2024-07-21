@@ -8,8 +8,8 @@
   src: url("webfonts/alagard/alagard-webfont.woff");
 }
 @font-face {
-  font-family: "MS UI Gothic";
-  src: url("webfonts/MS-UIGothic.ttf");
+  font-family: "consolas";
+  src: url("webfonts/Consolas.ttf");
 }
 
 :root {
