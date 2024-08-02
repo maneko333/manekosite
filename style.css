@@ -8,7 +8,7 @@
   src: url("webfonts/alagard/alagard-webfont.woff");
 }
 @font-face {
-  font-family: "MS Gothic";
+  font-family: "ms gothic";
   src: url("webfonts/MS-UIGothic.ttf");
 }
 
@@ -164,3 +164,11 @@ h2 {
   color: var(--pink)
 }
 
+
+
+/* random stragglers */
+#updates {
+  list-style-type: "- ";
+  margin: 5px;
+  padding: 5px;
+}

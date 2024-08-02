@@ -1,0 +1,49 @@
+:root {
+    --green: #99e550;
+    --pink: #e9099b;
+    --dpurple: #594e99;
+    --mpurple: #7b5fa8;
+    --lpurple: #d8d6f2;
+    --dark: #0e0221;
+}
+
+body {
+    background-color: rgb(255, 240, 255);
+    font-family: ms gothic;
+    color: var(--dark);
+    font-size: 10px;
+    padding-top: 15%;
+}
+
+#fquote {
+    background-color: var(--lpurple);
+    border: solid 2px white;
+    border-radius: 2px;
+    width: 500px;
+    padding: 10px;
+}
+
+#nxtbttn {
+    background-color: var(--dpurple);
+    border: 2px solid var(--dark) ;
+    border-radius: 2px;
+    color: white;
+    padding: 7px 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: ms gothic;
+    font-size: 11px;
+}
+
+#bck {
+    position: absolute;
+    left: 220px;
+}
+
+a {
+    color: var(--lpurple);
+}
+a:visited {
+    color: var(--lpurple);
+}
