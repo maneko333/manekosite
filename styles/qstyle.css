@@ -37,8 +37,8 @@ body {
 }
 
 #bck {
-    position: absolute;
-    left: 220px;
+    position: fixed;
+    left: 47%;
 }
 
 a {
