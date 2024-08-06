@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(255, 240, 255);
-    font-family: ms gothic, consolas;
+    font-family: ms gothic, consolas, sans-serif;
     color: var(--dark);
     font-size: 10px;
     padding-top: 15%;
