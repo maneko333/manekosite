@@ -7,10 +7,6 @@
   font-family: "alagard";
   src: url("webfonts/alagard/alagard-webfont.woff");
 }
-@font-face {
-  font-family: "ms gothic";
-  src: url("webfonts/MS-UIGothic.ttf");
-}
 
 :root {
   --green: #99e550;
@@ -22,8 +18,8 @@
 }
 
 body {
-  font-family: ms gothic;
-  font-size: 12.5px;
+  font-family: ms gothic, consolas;
+  font-size: 12px;
   margin-left: 5px;
   background-color: var(--lpurple);
   position: absolute;
