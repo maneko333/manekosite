@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(255, 240, 255);
-    font-family: ms gothic;
+    font-family: ms gothic, consolas;
     color: var(--dark);
     font-size: 10px;
     padding-top: 15%;
@@ -43,7 +43,7 @@ body {
 
 #bck {
     position: fixed;
-    left: 47%;
+    left: 49%;
     width: auto;
 }
 

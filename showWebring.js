@@ -1,6 +1,6 @@
 
 var nameSelfWebring = "maneko";
-var relationshipSelfWebring = "is forever enamoured by";
+var relationshipSelfWebring = "so loves";
 var charnameSelfWebring = "gerard";
 var seriesSelfWebring = "my chemical romance";
 var imgurlSelfWebring = "https://i.imgur.com/KqzfMN2.png";
