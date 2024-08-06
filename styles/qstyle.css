@@ -15,6 +15,11 @@ body {
     padding-top: 15%;
 }
 
+#meta {
+    color:  var(--dpurple);
+    font-weight: bold;
+}
+
 #fquote {
     background-color: var(--lpurple);
     border: solid 2px white;
@@ -39,6 +44,7 @@ body {
 #bck {
     position: fixed;
     left: 47%;
+    width: auto;
 }
 
 a {
