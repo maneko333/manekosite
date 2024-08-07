@@ -1,7 +1,33 @@
 <!doctype html>
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+      @font-face {
+      font-family: "alagard";
+      src: url("webfonts/alagard/alagard-webfont.woff");
+    }
+    .flex{
+        display:flex;
+        justify-content:center;
+      }
+      #aboutimg{
+        padding-top:15%;
+      }
+      #text{
+          flex-grow:1;
+          background-color: red;
+      }
+  </style>
 </head>
 <html>
-   <img id="aboutimg" src="/media/gaia.png">
+    <div class="flex">
+        <div id="aboutimg">
+            <img src="/media/gaia.png" />
+        </div>
+        <div="text">
+            <center>
+                <h1>about me</h1>
+            </center>
+        </div>
+    </div>
 </html>
