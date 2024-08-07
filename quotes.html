@@ -1,29 +1,37 @@
 <!doctype html>
 <html>
-    <head>
-        <style>
-            body {
-                background-image: url(media/bg.png);
-            }
-        </style>
-        <title>fav lyrics</title>
-        <link href="styles\qstyle.css" rel="stylesheet" type="text/css" />
-        <script defer src="quotes.js"></script>
-    </head>
-    <body>
-        <center>
-        <div id="fquote">
-            <img src="media\hamjingle.gif"></img>
-            <button id="nxtbttn">roll the slot</button>
-            <br><br>
-            <div id="lyric"></div>
-            <div id="meta"></div>
-        </div>
-        </center>
 
-        <div id="bck">
-            <a id="bck" href="/index.html"><- back</a>
-        </div>
-        
-    </body>
+<head>
+	<link href="styles\qstyle.css" rel="stylesheet" type="text/css" />
+	<style>
+		@font-face {
+			font-family: "ms gothic";
+			src: url("webfonts/msgothic/MS-PGothic.woff2");
+		}
+		body {
+			background-image: url(media/bg.png);
+			font-smooth: never;
+		}
+	</style>
+	<title>fav lyrics</title>
+	<script defer src="quotes.js"></script>
+</head>
+
+<body>
+	<center>
+		<div id="fquote">
+			<img src="media\hamjingle.gif"></img>
+			<button id="nxtbttn">roll the slot</button>
+			<br><br>
+			<div id="lyric"></div>
+			<div id="meta"></div>
+		</div>
+	</center>
+
+	<div id="bck">
+		<a id="bck" href="/index.html"><- back</a>
+	</div>
+
+</body>
+
 </html>
