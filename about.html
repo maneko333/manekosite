@@ -1,33 +1,63 @@
 <!doctype html>
+
 <head>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-      @font-face {
-      font-family: "alagard";
-      src: url("webfonts/alagard/alagard-webfont.woff");
-    }
-    .flex{
-        display:flex;
-        justify-content:center;
-      }
-      #aboutimg{
-        padding-top:15%;
-      }
-      #text{
-          flex-grow:1;
-          background-color: red;
-      }
-  </style>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		.flex {
+			display: flex;
+			width: 490px;
+		}
+
+		h1 {
+			text-decoration: underline;
+			text-decoration-color: var(--pink);
+			text-underline-offset: 3px;
+			padding-left: 60px;
+		}
+
+		#aboutimg {
+			padding-top: 20px;
+		}
+
+		#text {
+			flex-grow: 1;
+		}
+		.bld {
+			font-family: alagard;
+			font-size: 14px;
+			text-decoration: underline;
+			color: var(--dark);
+		}
+		ul {
+			list-style: none;
+			padding-left: 5px;
+		}
+		li {
+			padding-bottom: 4px;
+		}
+	</style>
 </head>
 <html>
-    <div class="flex">
-        <div id="aboutimg">
-            <img src="/media/gaia.png" />
-        </div>
-        <div="text">
-            <center>
-                <h1>about me</h1>
-            </center>
-        </div>
-    </div>
+<div class="flex">
+	<div id="aboutimg">
+		<img src="/media/gaia.png" />
+	</div>
+	<div id="text">
+		<h1>about me</h1>
+			<ul>
+				<li><span class="bld">name</span>: hmm.. should i say?</li>
+				<li><span class="bld">age</span>: 28</li>
+				<li><span class="bld">gender</span>: female (she/her)</li>
+				<li><span class="bld">favorite animal</span>: hyenas</li>
+				<li><span class="bld">likes</span>: music, video games, html/css, cute clowns, bar with friends, thrifting, roller/ice skating, fishing, internet</li>
+				<li><span class="bld">not a fan</span>: hot weather, homework, last minute changes in plans, tuna, copycats, new social media</li>
+			</ul>
+		<h1>find me on</h1>
+			<ul>
+				<li>gaiaonline ((not very active)): <a href="https://www.gaiaonline.com/profiles/the_maneko/15805357/" target=”_blank”>the_maneko</a></li>
+			</ul>
+
+</div>
+</div>
+
 </html>
