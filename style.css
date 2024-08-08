@@ -8,11 +8,6 @@
 	src: url("webfonts/alagard/alagard-webfont.woff");
 }
 
-@font-face {
-	font-family: "ms gothic";
-	src: url("webfonts/msgothic/MS-PGothic.woff2");
-}
-
 :root {
 	--green: #99e550;
 	--pink: #e9099b;
@@ -22,10 +17,21 @@
 	--dark: #0e0221;
 }
 
+* {
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+}
+
+.prptxt {
+	color: var(--dpurple);
+}
+
+.pnktxt {
+	color: var(--pink)
+}
+
 body {
 	font-family: monospace;
-	font-weight: normal;
-	font-style: normal;
 	font-size: 11px;
 	margin-left: 5px;
 	background-color: var(--lpurple);
@@ -34,6 +40,8 @@ body {
 
 a {
 	color: var(--pink);
+	text-decoration: underline;
+	text-decoration-color: var(--dark);
 }
 
 a:visited {
@@ -171,6 +179,8 @@ h2 {
 
 
 /* random stragglers */
+
+
 #updates {
 	list-style-type: "- ";
 	margin: 5px;
