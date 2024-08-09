@@ -44,6 +44,11 @@ var lyricsStore = [
 		title: "Burnout",
 		artist: "Green Day"
 	},
+	{
+		lyric: "You will always be the heart in me. You will always be the past, the love, the memories.",
+		title: "The Past the Love the Memory",
+		artist: "A Skylit Drive"
+	}
 ];
 
 nextButton.addEventListener('click', randLyric);
