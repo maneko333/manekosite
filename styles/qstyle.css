@@ -15,8 +15,9 @@ body {
 }
 
 #meta {
+	font-family: game font;
 	color: var(--dpurple);
-	font-size: 11px;
+	font-size: medium;
 }
 
 #fquote {
