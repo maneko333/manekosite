@@ -1,8 +1,8 @@
 
 var nameSelfWebring = "maneko";
 var relationshipSelfWebring = "is bffs with";
-var charnameSelfWebring = "porter robinson!";
-var seriesSelfWebring = "";
+var charnameSelfWebring = "microwaveable porter";
+var seriesSelfWebring = "porter robinson";
 var imgurlSelfWebring = "https://i.imgur.com/V3QcwTW.png";
 
 var templateWebring = document.createElement("selfinsertwebring");
