@@ -186,6 +186,11 @@ h2 {
 	margin: 5px;
 	padding: 5px;
 }
+#todo {
+	list-style-type: "- ";
+	margin: 5px;
+	padding: 5px;
+}
 
 /* Firefox */
 * {
