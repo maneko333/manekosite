@@ -88,6 +88,16 @@ var lyricsStore = [
 		lyric: "It's kinda sad how it's not your fault you're living in a madhouse.",
 		title: "Cheerleader",
 		artist: "Porter Robinson"
+	},
+	{
+		lyric: "It would be so much easier to love you if you could only see yourself like me.",
+		title: "Easier to Love You",
+		artist: "Porter Robinson"
+	},
+	{
+		lyric: "You called me 'angel' for the first time, my heart leapt from me.",
+		title: "Unknown/Nth",
+		artist: "Hozier"
 	}
 
 ];
