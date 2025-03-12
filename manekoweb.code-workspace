@@ -3,5 +3,8 @@
     {
       "path": "."
     }
-  ]
+  ],
+  "settings": {
+    "github-enterprise.uri": "https://git.nekoweb.org"
+  }
 }
