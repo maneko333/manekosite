@@ -7,17 +7,20 @@
 	--dark: #0e0221;
 }
 
+* {
+	font-family: consolas;
+}
+
 body {
-	font-family: monospace;
 	color: var(--dark);
 	font-size: 10px;
 	padding-top: 15%;
 }
 
 #meta {
-	font-family: game font;
 	color: var(--dpurple);
-	font-size: medium;
+	font-size: 9px;
+	font-style: italic;
 }
 
 #fquote {
@@ -29,7 +32,6 @@ body {
 }
 
 #nxtbttn {
-	font-family: monospace;
 	font-size: 10px;
 	background-color: var(--dpurple);
 	border: 2px solid var(--dark);
