@@ -10,11 +10,6 @@ var lyricsStore = [
 		artist: "Sleep Token"
 	},
 	{
-		lyric: "It's the ones with the sorest throats who've done the most singing.",
-		title: "Laura Laurent",
-		artist: "Bright Eyes"
-	},
-	{
 		lyric: "You can only blame your problems on the world for so long, before they all become the same old song.",
 		title: "The (Shipped) Gold Standard",
 		artist: "Fall Out Boy"
