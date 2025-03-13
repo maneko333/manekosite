@@ -1,9 +1,4 @@
 @font-face {
-	font-family: "game font";
-	src: url("webfonts/game_font/game-font-webfont.woff");
-}
-
-@font-face {
 	font-family: "alagard";
 	src: url("webfonts/alagard/alagard-webfont.woff");
 }
@@ -166,10 +161,10 @@ h2 {
 /* footer */
 #footer {
 	color: var(--mpurple);
-	font-family: game font;
-	font-size: medium;
+	font-family: consolas;
+	font-size: 8px;
 	position: relative;
-	top: 637px;
+	top: 645px;
 	left: 747px;
 }
 
