@@ -27,11 +27,11 @@
     color: var(--darkbrown);
 }
 
-.site-box:after {
+/*.site-box:after {
     content: url(https://maneko.nekoweb.org/sitebox/hamtaro.gif);
     position: relative;
     top: 50px;
-}
+} */
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
 .follow {
