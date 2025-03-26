@@ -12,22 +12,20 @@
 	--dark: #0e0221;
 }
 
-* {
-	font-smooth: never;
-	-webkit-font-smoothing: none;
-}
 
 .flex-container {
 	display: flex;
-	height: 100%;
-	flex-wrap: nowrap;
+	/* flex-wrap: nowrap; */
 	margin: auto;
 }
 
 .flex-container>div {
-	margin: auto;
+    margin-left: auto;
+    margin-right: 25px;
+	padding: 25px;
 	text-align: center;
-}
+	background-color: var(--dpurple);
+} 
 
 body {
 	font-family: monospace;
