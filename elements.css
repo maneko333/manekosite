@@ -58,7 +58,7 @@
 .site-box:hover:after {
     content: url(https://maneko.nekoweb.org/sitebox/ham-hover.gif);
     position: relative;
-    top: 5px;
+    top: 4px;
 }
 
 .site-box::before {
