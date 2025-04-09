@@ -13,19 +13,28 @@
 }
 
 
-.flex-container {
+.main-container {
 	display: flex;
-	/* flex-wrap: nowrap; */
-	margin: auto;
+	justify-content: center;
 }
 
-.flex-container>div {
-    margin-left: auto;
-    margin-right: 25px;
-	padding: 25px;
+.main-container>div {
+	padding: 10px;
 	text-align: center;
 	background-color: var(--dpurple);
+	border: 3px solid var(--green);
+	margin: 0px 5px;
 } 
+
+.main-container>.updates{
+	width:200px;
+}
+
+.main-container>.updates>ul {
+	padding: 0%;
+	list-style-type: square;
+	list-style-position: inside;
+}
 
 body {
 	font-family: monospace;
@@ -37,7 +46,7 @@ h1, h2, h3, h4 {
 	display: block;
 	font-family: alagard;
 	text-shadow: 1px 1px 5px var(--pink);
-	padding: 5px;
+	padding: 2px;
 }
 
 /* Firefox */
