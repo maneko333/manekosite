@@ -76,6 +76,7 @@ h4 {
 }
 
 /* browser things */
+
 * {
 	scrollbar-width: thin;
 	scrollbar-color: var(--accent2) white;
