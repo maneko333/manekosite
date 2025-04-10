@@ -50,6 +50,7 @@
 }
 
 .main-container>.side li {
+	padding-left: 3px;
 	padding-bottom: 5px;
 	list-style-type: '♡';
 }
