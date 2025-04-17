@@ -62,6 +62,7 @@
 /* basic styling */
 
 body {
+	background-image: url(/media/bg.png);
 	font-family: monospace;
 	font-size: 12px;
 	color: var(--light);
