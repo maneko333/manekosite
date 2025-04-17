@@ -1,3 +1,32 @@
+:root {
+  --accent1: #99e550;
+  --accent2: #e9099b;
+  --dark: #594e99;
+  --medium: #7b5fa8;
+  --light: #d8d6f2;
+  --black: #0e0221;
+}
+
 body {
   background-image: url(/media/bg.png);
+  font-family: MS Gothic, "MSGothic";
+  font-size: 12px;
+}
+
+.container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header img {
+  width: 75%;
+}
+
+.main {
+  width: 650px;
+  border: 3px solid var(--black);
+  background-color: var(--accent1);
 }

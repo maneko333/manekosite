@@ -1,12 +1,3 @@
-@font-face {
-	font-family: "alagard";
-	src: url("webfonts/alagard/alagard-webfont.woff");
-}
-@font-face {
-	font-family: "MSGothic";
-	src: url(/webfonts/msgothic.ttf);
-}
-
 :root {
 	--accent1: #99e550;
 	--accent2: #e9099b;
