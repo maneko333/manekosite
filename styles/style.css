@@ -59,8 +59,10 @@
 
 body {
 	background-image: url(/media/bg.png);
-	font-family: "MS PGothic", lato;
+	font-family: "MS PGothic", verdana, monospace;
 	font-size: 12px;
+	letter-spacing: 1px;
+	/* line-height: 11px; */
 	color: var(--light);
 }
 
