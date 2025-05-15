@@ -1,10 +1,10 @@
 :root {
-	--accent1: #99e550;
-	--accent2: #e9099b;
-	--dark: #594e99;
-	--medium: #7b5fa8;
-	--light: #d8d6f2;
-	--black: #0e0221;
+	--accent1: #55A049;
+	--accent2: #8F8F8F;
+	--dark: #5873A9;
+	--medium: #67B6BD;
+	--light: #ffffff;
+	--black: #000000;
 }
 
 /* main layout container */
@@ -20,8 +20,9 @@
 	padding: 10px;
 	margin: 5px 5px;
 	/* text-align: center; */
-	background-color: var(--dark);
+	background-color: var(--light);
 	border: 3px solid var(--accent2);
+	border-radius: 5px;
 }
 
 .main-container>.main {
@@ -59,20 +60,23 @@
 /* basic styling */
 
 body {
-	background-image: url(/media/bg.png);
+	background-image: url(/media/daybg.png);
+	background-repeat: repeat;
+	background-size: cover;
 	font-family: "MS PGothic", verdana, monospace;
 	font-size: 12px;
 	letter-spacing: 1px;
 	/* line-height: 11px; */
-	color: var(--light);
+	color: var(--dark);
 }
 
 h1,
 h2,
 h3,
 h4 {
+	color: var(--medium);
 	font-family: alagard;
-	text-shadow: 1px 1px 5px var(--black);
+	text-shadow: 1px 1px 5px var(--accent1);
 	padding-bottom: 5px;
 }
 

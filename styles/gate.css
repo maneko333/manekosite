@@ -1,32 +1,80 @@
 :root {
-  --accent1: #99e550;
-  --accent2: #e9099b;
-  --dark: #594e99;
-  --medium: #7b5fa8;
-  --light: #d8d6f2;
-  --black: #0e0221;
+  --accent1: #55A049;
+  --accent2: #8F8F8F;
+  --dark: #5873A9;
+  --medium: #67B6BD;
+  --light: #ffffff;
+  --black: #000000;
 }
 
-body {
-  background-image: url(/media/bg.png);
-  font-family: MS Gothic, "MSGothic";
-  font-size: 12px;
-}
+/* main layout container */
 
-.container {
-  height: 250px;
+.main-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #55A049;
 }
 
-.header img {
-  width: 75%;
+.main-container>.item {
+  padding: 10px;
+  margin: 5px 5px;
+  /* text-align: center; */
+  background-color: var(--light);
+  border: 3px solid var(--accent2);
+  border-radius: 5px;
 }
 
-.main {
-  width: 650px;
-  border: 3px solid var(--black);
-  background-color: var(--accent1);
+.main-container>.main {
+  text-align: center;
+  width: 500px;
+}
+
+/* basic styling */
+
+body {
+  background-image: url(/media/daybg.png);
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: "MS PGothic", verdana, monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  /* line-height: 11px; */
+  color: var(--dark);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--medium);
+  font-family: alagard;
+  text-shadow: 1px 1px 5px var(--accent1);
+  padding-bottom: 5px;
+}
+
+/* browser things */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark) white;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--dark);
+  border-radius: 10px;
+  border: 3px double #ffffff;
+}
+
+::selection {
+  color: white;
+  background: var(--dark);
 }
