@@ -64,7 +64,7 @@ h3,
 h4 {
 	color: var(--black);
 	font-family: bitbit;
-	text-shadow: 1px 1px 5px var(--medium);
+	text-shadow: 1px 1px 5px var(--dark);
 	margin: 0px;
 	padding-bottom: 3px;
 	text-align: center;
@@ -75,7 +75,6 @@ h4 {
 #listening {
 	padding-top: 10px;
 	text-align: center;
-	line-height: 2px;
 }
 
 #cover {
@@ -84,12 +83,15 @@ h4 {
 }
 
 #trackName {
+	margin: 2px 0 5px 0;
 	font-weight: bold;
 }
 
 #artistName {
+	margin: 1px;
 	text-decoration: underline;
 	font-size: 10px;
+	color: var(--medium)
 }
 
 
