@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "alagard";
-  src: url("webfonts/alagard/alagard-webfont.woff");
-}
-
-@font-face {
   font-family: 'bitbit';
   src: url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'), url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2');
 }
