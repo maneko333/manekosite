@@ -13,7 +13,7 @@
 	margin: auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	gap: 5px;
 	width: 500px;
 	/* border: solid red 2px; */
@@ -55,7 +55,6 @@ body {
 	font-family: "MS PGothic", verdana, monospace;
 	font-size: 12px;
 	letter-spacing: 2px;
-	line-height: 10px;
 	color: var(--dark);
 }
 
@@ -70,6 +69,29 @@ h4 {
 	padding-bottom: 3px;
 	text-align: center;
 }
+
+/* listening script */
+
+#listening {
+	padding-top: 10px;
+	text-align: center;
+	line-height: 2px;
+}
+
+#cover {
+	width: 75%;
+	border: 1px solid var(--accent2);
+}
+
+#trackName {
+	font-weight: bold;
+}
+
+#artistName {
+	text-decoration: underline;
+	font-size: 10px;
+}
+
 
 /* browser things */
 

@@ -23,9 +23,9 @@ const getTrack = async () => {
   // ARTIST: json.track.artist['#text']
 
   document.getElementById("listening").innerHTML = `
-    <img src="${json.track.image[1]['#text']}">
+    <img id="cover" src="${json.track.image[2]['#text']}">
     <div id="trackInfo">
-    <h3 id="trackName">${json.track.name}</h3>
+    <p id="trackName">${json.track.name}</p>
     <p id="artistName">${json.track.artist['#text']}</p>
     </div>
     `
