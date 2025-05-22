@@ -78,8 +78,17 @@
     h4 {
       color: var(--black);
       font-family: bitbit;
-      text-shadow: 1px 1px 5px var(--medium);
-      padding-bottom: 5px;
+      text-shadow: 1px 1px 1px var(--medium);
+      margin: 0px;
+      padding-bottom: 3px;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    #emphasis {
+      font-weight: bold;
+      color: var(--black);
+      text-shadow: 1px 1px 1px var(--medium);
     }
 
     /* browser things */
@@ -116,12 +125,13 @@
       <img src="media/felicia.gif">
     </div>
     <div class="item main">
-      <h2>♡ hi ♡ </h2>
+      <h2>hi</h2>
       <p>
-        this website is a wip for right now :3 i've been working on it much
+        this website is a <span id="emphasis">wip</span> for right now :3 i've been working on it much
         more frequently lately! please look forward to it!</p>
       <p>basically i wanna work more on this BUT i need to draw a plan first instead of going directly into the coding
         part. Getting ahead of myself `(*>﹏<*)′ </p>
+          <p><span id="emphasis">this site looks best on a desktop browser!</span></p>
           <p class="counter">
             <!-- FC2 Counter  Starts here -->
             <script language="javascript" type="text/javascript"
@@ -131,7 +141,7 @@
           </p>
     </div>
     <div class="item button">
-      <a href="/home.html">enter</a>
+      <a href="/home.html"><span id="emphasis">enter</span></a>
     </div>
   </div>
 </body>
