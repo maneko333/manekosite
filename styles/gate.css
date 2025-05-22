@@ -63,7 +63,7 @@ h2,
 h3,
 h4 {
   color: var(--black);
-  font-family: header;
+  font-family: bitbit;
   text-shadow: 1px 1px 5px var(--medium);
   padding-bottom: 5px;
 }
