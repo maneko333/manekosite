@@ -31,17 +31,12 @@
 
 .main-container>.main {
   text-align: center;
-
 }
 
-.main-container>.buttons {
-  padding: 1px;
-  margin: 1px;
-}
-}
-
-.main-container>.buttons>h2 {
-  padding: 0%;
+.main-container>.button {
+  width: 50px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /* basic styling */
