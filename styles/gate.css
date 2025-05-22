@@ -29,6 +29,14 @@
   border-radius: 10px;
 }
 
+.main-container>.banner {
+  text-align: center;
+}
+
+.main-container>.banner>img {
+  width: 75%;
+}
+
 .main-container>.main {
   text-align: center;
 }
@@ -45,7 +53,7 @@ body {
   background-image: url(/media/daybg.png);
   background-repeat: repeat;
   background-size: cover;
-  margin-top: 200px;
+  margin-top: 150px;
   font-family: "MS PGothic", verdana, monospace;
   font-size: 12px;
   letter-spacing: 2px;
