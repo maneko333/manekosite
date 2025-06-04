@@ -19,9 +19,18 @@
 	border: solid #ff0000 2px;
 }
 
+.left {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	border: solid #9900ff 2px;
+}
+
 .center {
+	display: flex;
+	flex-direction: column;
 	border: solid #3333ff 2px;
-	width: 300px;
+	flex-basis: 300px;
 }
 
 .center>.item {
