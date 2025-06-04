@@ -16,18 +16,19 @@
 	align-items: center;
 	gap: 5px;
 	width: 500px;
-	/* border: solid red 2px; */
+	border: solid #ff0000 2px;
 }
 
-.main-container>.item {
+.center {
+	border: solid #3333ff 2px;
+	width: 300px;
+}
+
+.center>.item {
 	padding: 10px;
 	background-color: var(--light);
 	border: 1px dashed var(--accent2);
 	border-radius: 10px;
-}
-
-.main-container>.main {
-	width: 300px;
 }
 
 .right {
@@ -35,7 +36,7 @@
 	flex-direction: column;
 	gap: 5px;
 	width: 200px;
-	/* border: solid red 2px; */
+	border: solid #00ff40 2px;
 }
 
 .right>.item {
