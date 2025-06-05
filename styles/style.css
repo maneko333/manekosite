@@ -53,12 +53,14 @@
 	background-color: var(--light);
 	border: 1px dashed var(--accent2);
 	border-radius: 10px;
+	height: 425px;
+	/* or any height you want */
 }
 
 .mainframe {
 	border: none;
-	height: 425px;
-	width: 300px;
+	height: 100%;
+	width: 100%;
 }
 
 .right {
