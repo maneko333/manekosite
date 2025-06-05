@@ -45,7 +45,7 @@
 	display: flex;
 	flex-direction: column;
 	/* border: solid #3333ff 2px; */
-	flex-basis: 300px;
+	/* flex-basis: 300px; */
 }
 
 .center>.item {
@@ -104,8 +104,9 @@ h4 {
 	text-decoration: underline;
 }
 
-#emphasis {
+em {
 	font-weight: bold;
+	font-style: normal;
 	color: var(--black);
 	text-shadow: 1px 1px 1px var(--medium);
 }
