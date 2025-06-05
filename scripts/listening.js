@@ -10,12 +10,12 @@ const getTrack = async () => {
 
   let isPlaying = json.track['@attr']?.nowplaying || false;
 
-  if (!isPlaying) {
-    // Trigger if a song isn't playing
-    return;
-  } else {
-    // Trigger if a song is playing
-  }
+  // if (!isPlaying) {
+  //   // Trigger if a song isn't playing
+  //   return;
+  // } else {
+  //   // Trigger if a song is playing
+  // }
 
   // Values:
   // COVER IMAGE: json.track.image[1]['#text']
