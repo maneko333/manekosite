@@ -96,8 +96,9 @@ h4 {
 	text-decoration: underline;
 }
 
-#emphasis {
+em {
 	font-weight: bold;
+	font-style: normal;
 	color: var(--black);
 	text-shadow: 1px 1px 1px var(--medium);
 }
