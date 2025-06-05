@@ -14,8 +14,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	gap: 5px;
-	width: 800px;
+	max-width: 750px;
 	border: solid #ff0000 2px;
 }
 
