@@ -22,8 +22,22 @@
 .left {
 	display: flex;
 	flex-direction: column;
+	align-self: flex-start;
 	gap: 5px;
+	width: 200px;
 	border: solid #9900ff 2px;
+}
+
+.left>.item {
+	padding: 10px;
+	background-color: var(--light);
+	border: 1px dashed var(--accent2);
+	border-radius: 10px;
+}
+
+.navigation ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 .center {
