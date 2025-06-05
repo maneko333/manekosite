@@ -17,7 +17,7 @@
 	flex-wrap: wrap;
 	gap: 5px;
 	max-width: 750px;
-	border: solid #ff0000 2px;
+	/* border: solid #ff0000 2px; */
 }
 
 .left {
@@ -26,7 +26,7 @@
 	align-self: flex-start;
 	gap: 5px;
 	width: 200px;
-	border: solid #9900ff 2px;
+	/* border: solid #9900ff 2px; */
 }
 
 .left>.item {
@@ -44,7 +44,7 @@
 .center {
 	display: flex;
 	flex-direction: column;
-	border: solid #3333ff 2px;
+	/* border: solid #3333ff 2px; */
 	flex-basis: 300px;
 }
 
@@ -60,7 +60,7 @@
 	flex-direction: column;
 	gap: 5px;
 	width: 200px;
-	border: solid #00ff40 2px;
+	/* border: solid #00ff40 2px; */
 }
 
 .right>.item {
