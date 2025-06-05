@@ -7,6 +7,16 @@
 	--black: #3c3e3f;
 }
 
+
+/* banner img */
+
+.banner {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1%;
+}
+
 /* main layout container */
 
 .main-container {
