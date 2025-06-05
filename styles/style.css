@@ -111,6 +111,10 @@ em {
 	text-shadow: 1px 1px 1px var(--medium);
 }
 
+a {
+	color: var(--medium);
+}
+
 /* listening script */
 
 #listening {
