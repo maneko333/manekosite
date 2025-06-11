@@ -149,6 +149,11 @@ a {
 	text-shadow: 1px 1px 1px var(--medium);
 }
 
+/* statuscafe */
+
+#statuscafe-username {
+	font-size: 8px;
+}
 
 /* browser things */
 
