@@ -88,6 +88,24 @@
 	border-radius: 10px;
 }
 
+/* footer container */
+
+.footer-container {
+	margin: auto;
+	padding-top: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 700px;
+	/* border: solid #ff0000 2px; */
+}
+
+/* .footer-container>.item {
+	background-color: var(--light);
+	border: 1px dashed var(--accent2);
+	border-radius: 10px;
+} */
+
 /* basic styling */
 
 body {
