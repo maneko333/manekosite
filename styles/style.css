@@ -117,9 +117,21 @@
 	animation: scroll 15s linear infinite;
 }
 
+.scroll-content:hover {
+	animation-play-state: paused;
+}
+
 .scroll-content img {
-	margin-right: 3px;
+	margin-right: 10px;
 	height: auto;
+	max-height: 40px;
+	width: auto;
+	transition: all 0.3s ease;
+}
+
+.scroll-content img:hover {
+	filter: drop-shadow(0 0 5px var(--accent1)) drop-shadow(0 0 10px var(--accent1));
+	transform: scale(1.05);
 }
 
 @keyframes scroll {
