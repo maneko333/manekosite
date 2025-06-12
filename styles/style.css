@@ -108,10 +108,9 @@
 
 /* now listening sparkles */
 
-.cover-wrapper {
+/* .cover-wrapper {
 	position: relative;
 	display: inline-block;
-	/* shrinkwrap to image */
 }
 
 .cover-wrapper::after {
@@ -125,10 +124,9 @@
 	background: url('/media/cherry.gif') repeat;
 	opacity: 1;
 	mix-blend-mode: screen;
-	border-radius: 10px;
-	/* match your cover image rounding if any */
+
 	z-index: 2;
-}
+} */
 
 .scroller {
 	display: flex;
@@ -268,3 +266,17 @@ a {
 	color: white;
 	background: var(--dark);
 }
+
+/* cherry blossom float */
+
+/* body::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url('/media/cherry.gif');
+	background-size: 75%;
+} */
