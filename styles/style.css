@@ -116,7 +116,7 @@ body {
 	padding: 0;
 }
 
-/* (•̀ ω •́)✧ bubbles */
+/* (•̀ ω •́)✧ frames */
 
 .mainframe {
 	border: none;
@@ -140,6 +140,8 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+/* (•̀ ω •́)✧ everything else */
 
 h1,
 h2,
