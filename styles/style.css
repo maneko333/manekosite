@@ -27,7 +27,7 @@ body {
 body {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-bubbles: center;
 	flex-direction: column;
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
@@ -43,7 +43,7 @@ body {
 .page-wrap {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-bubbles: center;
 	justify-content: center;
 	max-width: 750px;
 	width: 100%;
@@ -63,7 +63,7 @@ body {
 	margin: auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-bubbles: center;
 	flex-wrap: wrap;
 	gap: 5px;
 	max-width: 750px;
@@ -92,14 +92,14 @@ body {
 	flex: 1;
 }
 
-.item {
+.bubble {
 	padding: 10px;
 	background-color: var(--light);
 	border: 1px dashed var(--accent2);
 	border-radius: 10px;
 }
 
-.center>.item {
+.center>.bubble {
 	height: 425px;
 	padding: 3px;
 }
@@ -108,6 +108,8 @@ body {
 	list-style-type: none;
 	padding: 0;
 }
+
+/* (•̀ ω •́)✧ bubbles */
 
 .mainframe {
 	border: none;
