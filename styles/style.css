@@ -88,11 +88,20 @@ body {
 	/* border: solid #9900ff 2px; */
 }
 
-.left>.item {
+.center {
+	flex: 1;
+}
+
+.item {
 	padding: 10px;
 	background-color: var(--light);
 	border: 1px dashed var(--accent2);
 	border-radius: 10px;
+}
+
+.center>.item {
+	height: 425px;
+	padding: 3px;
 }
 
 .navigation ul {
@@ -100,29 +109,11 @@ body {
 	padding: 0;
 }
 
-.center>.item {
-	padding: 3px;
-	background-color: var(--light);
-	border: 1px dashed var(--accent2);
-	border-radius: 10px;
-	height: 425px;
-	/* or any height you want */
-}
-
 .mainframe {
 	border: none;
 	height: 100%;
 	width: 100%;
 }
-
-.right>.item {
-	padding: 10px;
-	background-color: var(--light);
-	border: 1px dashed var(--accent2);
-	border-radius: 10px;
-}
-
-/* footer container */
 
 .footer-container {
 	margin: auto;
