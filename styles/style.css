@@ -22,13 +22,6 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	display: flex;
-	justify-content: center;
-	align-bubbles: center;
-	flex-direction: column;
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
 	background-size: cover;
@@ -36,37 +29,50 @@ body {
 	font-size: 12px;
 	letter-spacing: 2px;
 	color: var(--dark);
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 10px;
+	overflow-y: auto;
 }
 
 /* (•̀ ω •́)✧ layout containers */
 
 .page-wrap {
-	display: flex;
-	flex-direction: column;
-	align-bubbles: center;
-	justify-content: center;
 	max-width: 750px;
 	width: 100%;
-	margin: 0 auto;
+	max-height: 90vh;
+	overflow-y: auto;
+	/* background: rgba(255, 255, 255, 0.9);
+		border-radius: 12px;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 10px;
 	box-sizing: border-box;
 }
 
 .banner {
-	margin: auto;
+	flex-shrink: 0;
 	display: flex;
 	justify-content: center;
 	padding-bottom: 1%;
+	width: 100%;
 }
 
 .main-container {
-	margin: auto;
 	display: flex;
-	justify-content: center;
-	align-bubbles: center;
 	flex-wrap: wrap;
 	gap: 5px;
+	justify-content: center;
 	max-width: 750px;
+	margin: 0 auto;
 	/* border: solid #ff0000 2px; */
 }
 
@@ -90,6 +96,7 @@ body {
 
 .center {
 	flex: 1;
+	min-width: 300px;
 }
 
 .bubble {
@@ -132,28 +139,6 @@ body {
 	width: 100%;
 	position: relative;
 }
-
-/* now listening sparkles */
-
-/* .cover-wrapper {
-	position: relative;
-	display: inline-block;
-}
-
-.cover-wrapper::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	background: url('/media/cherry.gif') repeat;
-	opacity: 1;
-	mix-blend-mode: screen;
-
-	z-index: 2;
-} */
 
 .scroller {
 	display: flex;
@@ -219,7 +204,7 @@ a {
 	color: var(--medium);
 }
 
-/* listening script */
+/* (•̀ ω •́)✧ now playing script */
 
 #listening {
 	padding-top: 10px;
@@ -243,13 +228,35 @@ a {
 	text-shadow: 1px 1px 1px var(--medium);
 }
 
-/* statuscafe */
+/* cover effect */
+
+.cover-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.cover-wrapper::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url('/media/cherry.gif') repeat;
+	opacity: 1;
+	mix-blend-mode: screen;
+
+	z-index: 2;
+}
+
+/* (•̀ ω •́)✧ status script */
 
 #statuscafe-username {
 	font-size: 8px;
 }
 
-/* browser things */
+/* (•̀ ω •́)✧ scrollbars */
 
 * {
 	scrollbar-width: thin;
