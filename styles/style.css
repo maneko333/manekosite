@@ -176,15 +176,35 @@
 
 /* basic styling */
 
+html,
 body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
 	background-size: cover;
-	margin-top: 250px;
 	font-family: "MS PGothic", verdana, monospace;
 	font-size: 12px;
 	letter-spacing: 2px;
 	color: var(--dark);
+}
+
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 750px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 h1,
