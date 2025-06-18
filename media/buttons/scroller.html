@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .blinkies {
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+
+    .scroller {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+    }
+
+    .scroll-content {
+      display: flex;
+      animation: scroll 15s linear infinite;
+    }
+
+    .scroll-content:hover {
+      animation-play-state: paused;
+    }
+
+    .scroll-content img {
+      margin-right: 3px;
+      height: auto;
+      max-height: 40px;
+      width: auto;
+      transition: all 0.3s ease;
+    }
+
+    .scroll-content img:hover {
+      filter: drop-shadow(0 0 5px var(--accent1)) drop-shadow(0 0 10px var(--accent1));
+      transform: scale(1.05);
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blinkies">
+    <div class="scroller">
+      <div class="scroll-content">
+        <a href="https://nekoweb.org/" target="_blank"><img src="https://nekoweb.org/assets/buttons/button11.gif"></a>
+        <img src="/media/buttons/animeblink.gif">
+        <img src="/media/buttons/shadow.gif">
+        <img src="/media/buttons/alwayson.gif">
+        <img src="/media/buttons/oh.gif">
+        <img src="/media/buttons/str.png">
+        <img src="/media/buttons/neopets.png">
+        <!-- duplicate for seamless looping -->
+        <a href="https://nekoweb.org/" target="_blank"><img src="https://nekoweb.org/assets/buttons/button11.gif"></a>
+        <img src="/media/buttons/animeblink.gif">
+        <img src="/media/buttons/shadow.gif">
+        <img src="/media/buttons/alwayson.gif">
+        <img src="/media/buttons/oh.gif">
+        <img src="/media/buttons/str.png">
+        <img src="/media/buttons/neopets.png">
+      </div>
+</body>
+
+</html>

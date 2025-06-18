@@ -130,10 +130,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	min-width: 700px;
 	max-width: 700px;
 	/* border: solid #ff0000 2px; */
 }
 
+.scrollframe {
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+
+/* 
 .blinkies {
 	overflow: hidden;
 	width: 100%;
@@ -178,7 +186,7 @@ body {
 	100% {
 		transform: translateX(-50%);
 	}
-}
+} */
 
 h1,
 h2,
