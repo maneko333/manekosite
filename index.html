@@ -5,71 +5,20 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/fonts.css" rel="stylesheet" type="text/css" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
   <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
   <title>silly little jester</title>
   <style>
-    :root {
-      --accent1: #55A049;
-      --accent2: #8F8F8F;
-      --dark: #5873A9;
-      --medium: #67B6BD;
-      --light: #ffffff;
-      --black: #3c3e3f;
-    }
-
-    /* main layout container */
-
     .page-wrap {
       max-width: 420px;
-      width: 100%;
-      max-height: 90vh;
-      overflow-y: auto;
-      /* background: rgba(255, 255, 255, 0.9);
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-
-    .main-container {
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      max-width: 400px;
-      /* border: 3px solid red; */
-    }
-
-    .main-container>.bubble {
-      padding: 10px;
-      margin: 5px 5px;
-      /* text-align: center; */
-      background-color: var(--light);
-      border: 1px dashed var(--accent2);
-      border-radius: 10px;
-    }
-
-    .main-container>.banner {
-      text-align: center;
     }
 
     .main-container>.banner>img {
-      width: 85%;
+      width: 65%;
     }
 
-    .main-container>.main {
+    .main {
       text-align: center;
-    }
-
-    .main-container>.button {
-      width: 50px;
-      text-align: center;
-      text-decoration: underline;
     }
 
     .footer-container {
@@ -87,92 +36,6 @@
       height: 100%;
       width: 100%;
     }
-
-    .scroll-content img:hover {
-      filter: drop-shadow(0 0 5px var(--accent1)) drop-shadow(0 0 10px var(--accent1));
-      transform: scale(1.05);
-    }
-
-    @keyframes scroll {
-      0% {
-        transform: translateX(0);
-      }
-
-      100% {
-        transform: translateX(-50%);
-      }
-    }
-
-    /* basic styling */
-
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      background-image: url(/media/daybg.png);
-      background-repeat: repeat;
-      background-size: cover;
-      font-family: "MS PGothic", verdana, monospace;
-      font-size: 12px;
-      letter-spacing: 2px;
-      color: var(--dark);
-      box-sizing: border-box;
-    }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 10px;
-      overflow-y: auto;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      color: var(--black);
-      font-family: bitbit;
-      text-shadow: 1px 1px 1px var(--medium);
-      margin: 0px;
-      padding-bottom: 3px;
-      text-align: center;
-      text-decoration: underline;
-    }
-
-    #emphasis {
-      font-weight: bold;
-      color: var(--black);
-      text-shadow: 1px 1px 1px var(--medium);
-    }
-
-    /* browser things */
-
-    * {
-      scrollbar-width: thin;
-      scrollbar-color: var(--dark) white;
-    }
-
-    *::-webkit-scrollbar {
-      width: 5px;
-    }
-
-    *::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    *::-webkit-scrollbar-thumb {
-      background-color: var(--dark);
-      border-radius: 10px;
-      border: 3px double #ffffff;
-    }
-
-    ::selection {
-      color: white;
-      background: var(--dark);
-    }
   </style>
 </head>
 
@@ -183,18 +46,18 @@
 
       <!-- banner -->
       <div class="banner">
-        <img src="media/banner.png">
+        <img src="media/felicia.gif">
       </div>
 
       <!-- main content box -->
       <div class="bubble main">
-        <h2>hi</h2>
+        <h2>hi~</h2>
         <p>
-          this website is a <span id="emphasis">wip</span> for right now :3 i've been working on it much
+          this website is a <em>wip</em> for right now :3 i've been working on it much
           more frequently lately! please look forward to it!</p>
         <p>basically i wanna work more on this BUT i need to draw a plan first instead of going directly into the coding
           part. Getting ahead of myself `(*>﹏<*)′ </p>
-            <p><span id="emphasis">this site looks best on a desktop browser!</span></p>
+            <p><em>this site looks best on a desktop browser!</em></p>
             <p class="counter">
               <!-- FC2 Counter  Starts here -->
               <script language="javascript" type="text/javascript"
@@ -205,8 +68,8 @@
       </div>
 
       <!-- enter button -->
-      <div class="bubble button">
-        <a href="/home.html"><span id="emphasis">enter</span></a>
+      <div class="bubble">
+        <a href="/home.html"><em>enter</em></a>
       </div>
 
       <!-- cute buttons footer -->
