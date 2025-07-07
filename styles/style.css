@@ -122,9 +122,12 @@ body {
 }
 
 .copy-right p {
-	
 	font-size: 8px;
 	color: var(--light);
+}
+
+.linkback {
+	text-align: center;
 }
 
 /* (•̀ ω •́)✧ frames */
