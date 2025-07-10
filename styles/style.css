@@ -156,6 +156,21 @@ body {
 	width: 100%;
 }
 
+.main {
+	position: relative;
+}
+
+.corner-sticker {
+	position: absolute;
+	top: -25px;
+	right: -12px;
+	/* width: 83px; */
+	z-index: 10;
+	pointer-events: none;
+	transform: rotate(-5deg);
+
+}
+
 /* (•̀ ω •́)✧ everything else */
 
 h1,
