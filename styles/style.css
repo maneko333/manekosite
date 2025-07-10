@@ -6,7 +6,7 @@
 }
 
 :root {
-	--accent1: #55A049;
+	--accent1: #F71052;
 	--accent2: #8F8F8F;
 	--dark: #5873A9;
 	--medium: #67B6BD;
@@ -127,7 +127,7 @@ body {
 	color: var(--light);
 }
 
-.linkback {
+.rings {
 	text-align: center;
 }
 
@@ -160,8 +160,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
 	color: var(--black);
 	font-family: bitbit, sans-serif;
 	text-shadow: 1px 1px 1px var(--medium);
@@ -169,6 +168,15 @@ h4 {
 	padding-bottom: 3px;
 	text-align: center;
 	text-decoration: underline;
+}
+
+h4 {
+	font-weight: bold;
+	font-style: normal;
+	color: var(--black);
+	text-shadow: 1px 1px 1px var(--accent1);
+	margin: 0px;
+	padding: 2px;
 }
 
 em {
