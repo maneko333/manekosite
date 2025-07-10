@@ -160,14 +160,14 @@ body {
 	position: relative;
 }
 
-.corner-sticker {
+.main-stk-1 {
 	position: absolute;
-	top: -25px;
-	right: -12px;
+	top: -35px;
+	right: -20px;
 	/* width: 83px; */
 	z-index: 10;
 	pointer-events: none;
-	transform: rotate(-5deg);
+	transform: rotate(10deg);
 
 }
 
