@@ -162,12 +162,12 @@ body {
 
 .main-stk-1 {
 	position: absolute;
-	top: -35px;
-	right: -20px;
+	bottom: -35px;
+	right: -25px;
 	/* width: 83px; */
 	z-index: 10;
 	pointer-events: none;
-	transform: rotate(10deg);
+	transform: rotate(5deg);
 
 }
 
