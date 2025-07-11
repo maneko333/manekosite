@@ -7,17 +7,19 @@
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
 .site-box {
     text-align: center;
-    background-image: url(https://maneko.nekoweb.org/sitebox/bg.gif);
+    background-image: url(https://maneko.nekoweb.org/media/daybg.png);
     /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 25px;
-    border: 3px solid #ff8127;
+    border: 1px dashed #8F8F8F;
 }
 
 .site-box:hover {
     text-align: center;
-    background-image: url(https://maneko.nekoweb.org/sitebox/bg-hover.gif);
+    background-image: url(https://maneko.nekoweb.org/media/rainbg.png);
     background-repeat: no-repeat;
+    background-position: center;
     color: #b08271;
     font-size: 12px;
 }
@@ -28,11 +30,12 @@
 
 .site-box>a>p {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 24px;
+
     text-shadow:
-        1px 1px 2px #ff8127,
+        1px 1px 2px #F71052,
         0 0 1em #3300eb,
-        0 0 0.2em #ab0000;
+        0 0 0.2em #72C4C9;
     position: relative;
     top: 15px;
 }
@@ -50,24 +53,28 @@
 }
 
 .site-box:after {
-    content: url(https://maneko.nekoweb.org/sitebox/hamtaro.gif);
+    content: url(https://maneko.nekoweb.org/sitebox/felicia-cute2x.gif);
     position: relative;
-    top: 15px;
+    top: 42px;
+    right: 50px;
 }
 
 .site-box:hover:after {
-    content: url(https://maneko.nekoweb.org/sitebox/ham-hover.gif);
+    content: url(https://maneko.nekoweb.org/sitebox/fdizzy2x.gif);
     position: relative;
-    top: 4px;
+    top: -35px;
+    left: 5px;
 }
 
 .site-box::before {
-    content: "♡ a silly wip ♡";
-    color: white;
-    font-size: 12px;
+    content: "♡ be happy ♡";
+    color: #5873A9;
+    font-size: 13px;
     position: relative;
-    top: -14px;
-    background-color: #ff8127;
+    top: 2px;
+    left: 65px;
+    background-color: #ffffff;
     padding: 2px 10px 0px 10px;
-    border-radius: 5px 5px 0px 0px;
+    border: 1px dashed #8F8F8F;
+    border-radius: 0px 0px 5px 5px;
 }
