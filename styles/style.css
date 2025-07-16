@@ -139,12 +139,18 @@ body {
 
 .rings {
 	padding: 4px;
-	overflow: hidden;
 }
 
 .updates {
 	padding: 4px;
-	overflow: hidden;
+}
+
+.updates p {
+	display: inline;
+}
+
+.updates h4 {
+	display: inline;
 }
 
 /* (•̀ ω •́)✧ frames */
