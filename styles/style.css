@@ -12,6 +12,7 @@
 	--medium: #67B6BD;
 	--light: #ffffff;
 	--black: #3c3e3f;
+	--transwhite: #ffffffe6;
 }
 
 *,
@@ -164,6 +165,7 @@ body {
 
 .main {
 	position: relative;
+	background: var(--transwhite);
 }
 
 .main-stk-1 {
