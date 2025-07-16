@@ -132,10 +132,19 @@ body {
 	text-align: center;
 }
 
-.rings {
+.swrap {
+	overflow: auto;
 	max-height: 150px;
-	overflow-y: scroll;
-	overflow-x: hidden;
+}
+
+.rings {
+	padding: 4px;
+	overflow: hidden;
+}
+
+.updates {
+	padding: 4px;
+	overflow: hidden;
 }
 
 /* (•̀ ω •́)✧ frames */
