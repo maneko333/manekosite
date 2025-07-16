@@ -127,8 +127,14 @@ body {
 	color: var(--light);
 }
 
-.rings {
+.linkme {
 	text-align: center;
+}
+
+.rings {
+	max-height: 150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /* (•̀ ω •́)✧ frames */
