@@ -134,11 +134,15 @@ body {
 
 .swrap {
 	overflow: auto;
-	max-height: 150px;
 }
 
 .rings {
 	padding: 4px;
+}
+
+.rcontent {
+	overflow: auto;
+	max-height: 150px;
 }
 
 .updates {
