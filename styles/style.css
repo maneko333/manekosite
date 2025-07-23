@@ -145,12 +145,9 @@ body {
 	padding: 4px;
 }
 
-.updates p {
-	display: inline;
-}
-
-.updates h4 {
-	display: inline;
+.uscroll {
+	overflow: auto;
+	max-height: 70px;
 }
 
 /* (•̀ ω •́)✧ frames */
@@ -222,6 +219,13 @@ em {
 	font-style: normal;
 	color: var(--black);
 	text-shadow: 1px 1px 1px var(--medium);
+}
+
+#em2 {
+	font-weight: bold;
+	font-style: normal;
+	color: var(--black);
+	text-shadow: 1px 1px 1px var(--accent1);
 }
 
 a {
