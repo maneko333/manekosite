@@ -77,6 +77,7 @@ body {
 	flex-wrap: wrap;
 	gap: 5px;
 	justify-content: center;
+	align-items: center;
 	max-width: 1000px;
 	margin: 0 auto;
 	/* border: solid #ff0000 2px; */
@@ -114,7 +115,7 @@ body {
 }
 
 .center>.bubble {
-	height: 425px;
+	height: 475px;
 	padding: 3px;
 }
 
