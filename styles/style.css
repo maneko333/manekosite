@@ -31,8 +31,7 @@
 html,
 body {
 	height: 100%;
-	/* margin: 0;
-	padding: 0; */
+	padding: 5px;
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
 	background-size: cover;
@@ -130,7 +129,8 @@ body {
 }
 
 .copy-right p {
-	font-size: 8px;
+	font-family: Verdana;
+	font-size: 9px;
 	color: var(--light);
 }
 
