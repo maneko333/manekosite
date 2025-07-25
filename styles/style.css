@@ -1,8 +1,13 @@
 /* (•̀ ω •́)✧ global stuff */
 
 @font-face {
-	font-family: 'bitbit';
-	src: url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'), url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2');
+	font-family: PF Ronda Seven;
+	src: url('/styles/PFRondaSeven.woff2')
+}
+
+@font-face {
+	font-family: cherry;
+	src: url('/styles/Cherrybomb.ttf')
 }
 
 :root {
@@ -26,14 +31,14 @@
 html,
 body {
 	height: 100%;
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
 	background-size: cover;
-	font-family: "MS PGothic", verdana, monospace;
-	font-size: 12px;
-	letter-spacing: 2px;
+	font-family: 'PF Ronda Seven', 'MS gothic', verdana, monospace;
+	font-size: 8px;
+	text-align: justify;
 	color: var(--dark);
 	box-sizing: border-box;
 }
@@ -185,6 +190,8 @@ body {
 	height: 100%;
 	max-height: 53px;
 	width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .main {
@@ -209,12 +216,12 @@ h1,
 h2,
 h3 {
 	color: var(--black);
-	/* font-family: bitbit, sans-serif; */
+	font-family: 'cherry';
 	text-shadow: 1px 1px 1px var(--medium);
 	margin: 0px;
-	padding-bottom: 3px;
+	/* padding-bottom: 3px; */
 	text-align: center;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 h4 {
@@ -224,7 +231,7 @@ h4 {
 	text-shadow: 1px 1px 1px var(--accent1);
 	text-align: center;
 	margin: 0px;
-	padding: 2px;
+	padding: 0px;
 }
 
 em {
