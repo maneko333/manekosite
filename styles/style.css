@@ -1,13 +1,13 @@
 /* (•̀ ω •́)✧ global stuff */
 
 @font-face {
-	font-family: PF Ronda Seven;
-	src: url('/styles/PFRondaSeven.woff2')
+	font-family: cherry;
+	src: url('/fonts/Cherrybomb.ttf')
 }
 
 @font-face {
-	font-family: cherry;
-	src: url('/styles/Cherrybomb.ttf')
+	font-family: basiic;
+	src: url('/fonts/basiic.ttf')
 }
 
 :root {
@@ -36,8 +36,8 @@ body {
 	background-image: url(/media/daybg.png);
 	background-repeat: repeat;
 	background-size: cover;
-	font-family: 'PF Ronda Seven', 'MS gothic', verdana, monospace;
-	font-size: 8px;
+	font-family: 'basiic', monospace;
+	font-size: 10px;
 	text-align: justify;
 	color: var(--dark);
 	box-sizing: border-box;
