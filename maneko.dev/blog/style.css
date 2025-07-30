@@ -1,0 +1,8 @@
+@font-face {
+  font-family: basiic;
+  src: url("/maneko.dev/fonts/basiic.ttf");
+}
+
+body {
+  font-family: 'basiic';
+}

@@ -118,7 +118,7 @@ body {
   border-radius: 10px;
 }
 
-.center > .bubble {
+.center>.bubble {
   height: 475px;
   padding: 3px;
 }
