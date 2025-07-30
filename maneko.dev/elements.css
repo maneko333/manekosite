@@ -7,7 +7,7 @@
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
 .site-box {
     text-align: center;
-    background-image: url(https://maneko.nekoweb.org/media/daybg.png);
+    background-image: url(https://maneko.nekoweb.org/maneko.dev/media/daybg.png);
     /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +17,7 @@
 
 .site-box:hover {
     text-align: center;
-    background-image: url(https://maneko.nekoweb.org/media/rainbg.png);
+    background-image: url(https://maneko.nekoweb.org/maneko.dev/media/rainbg.png);
     background-repeat: no-repeat;
     background-position: center;
     color: #b08271;
@@ -53,14 +53,14 @@
 }
 
 .site-box:after {
-    content: url(https://maneko.nekoweb.org/sitebox/felicia-cute2x.gif);
+    content: url(https://maneko.nekoweb.org/maneko.dev/sitebox/felicia-cute2x.gif);
     position: relative;
     top: 42px;
     right: 50px;
 }
 
 .site-box:hover:after {
-    content: url(https://maneko.nekoweb.org/sitebox/fdizzy2x.gif);
+    content: url(https://maneko.nekoweb.org/maneko.dev/sitebox/fdizzy2x.gif);
     position: relative;
     top: -35px;
     left: 5px;
