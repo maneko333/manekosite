@@ -1,0 +1,21 @@
+<rss version="2.0">
+    <channel>
+        <title>maneko ramblings</title>
+        <description>thoughts, opinions and just general nonsense</description>
+        <link>https://maneko.dev/blog</link>
+		
+        <!-- <item>
+            <title>post 2</title>
+            <description>Description of post 2</description>
+            <link>https://example.org/post-2</link>
+            <guid>post-2</guid>
+            <pubDate>Wed 17 Apr 2024, 04:38:00 -0400</pubDate>
+        </item> -->
+            <style>
+                .post-box .post-title {
+                    color: red;
+                }
+            </style>
+        </item>
+    </channel>
+</rss>
