@@ -3,6 +3,61 @@
   src: url("/maneko.dev/fonts/basiic.ttf");
 }
 
+*,
 body {
-  font-family: 'basiic';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: ms pgothic, sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+
+.blog-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.box-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffffd8;
+  border: 5px dashed #000;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+  overflow: auto;
+}
+
+.box {
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+  overflow: auto;
+}
+
+.content {
+  padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: ms pgothic, sans-serif;
+  padding: 2px 0px;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+p {
+  padding: 5px 0px;
 }
