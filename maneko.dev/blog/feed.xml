@@ -9,7 +9,7 @@
             <description>a mini-analysis of the album and how it makes me feel.</description>
             <link>https://maneko.dev/blog/2025/1yrsmile.html</link>
             <guid>1yrsmile</guid>
-            <pubDate>Thu 31 Jul 2025, 04:00:00 -0400</pubDate>
+            <pubDate>Thu 31 Jul 2025, 03:35:00 -0400</pubDate>
             <style>
               .post-box {
                 background-color: #f07fb3;
@@ -31,7 +31,7 @@
               }
               .post-box:after {
                 image-rendering: pixelated;
-                content: url(https://files.catbox.moe/mpi04x.gif);
+                content: url(https://maneko.nekoweb.org/maneko.dev/media/spinsmile.gif);
                 position: absolute;
                 top: -70px;
                 left: -40px;
