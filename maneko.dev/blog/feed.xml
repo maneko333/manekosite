@@ -17,17 +17,13 @@
                 border: 5px dashed #000;
                 border-radius: 15px;
             } 
-              .post-box .post-title {
-                letter-spacing: 5px;
-                font-size: 21px;
-            }
-              .post-box:after {
+            .post-box:after {
                 image-rendering: pixelated;
                 content: url(https://maneko.nekoweb.org/maneko.dev/media/spinsmile.gif);
                 position: absolute;
-                transform: scale(.2);
-                top: -70px;
-                left: -50px;
+                transform: scale(.9);
+                top: -80px;
+                left: -30px;
             }
             </style>
         </item>
