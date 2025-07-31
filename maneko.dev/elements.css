@@ -1,145 +1,84 @@
-/* 
-    Don't use this file to edit your site style! Create a different CSS file for that.
-    This file defines how custom elements (like sitebox) will look like.
-    Setting CSS that breaks main nekoweb site on purpose is prohibited and may result in ban and site deletion! 
-*/
-
-/* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
+/*!@nkb "domain":"maneko.dev","rss":"","overflow":true,"readonly":false */
 .site-box {
-    text-align: center;
     background-image: url(https://maneko.nekoweb.org/maneko.dev/media/daybg.png);
-    /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    border: 1px dashed #8F8F8F;
-}
-
-.site-box:hover {
-    text-align: center;
-    background-image: url(https://maneko.nekoweb.org/maneko.dev/media/rainbg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #b08271;
-    font-size: 12px;
+    border: 1px dashed #5873a9;
+    color: #000;
+    text-shadow: 0 0 2px #5873a9
 }
 
 .site-box .sitefeature {
-    display: none;
+    display: none
 }
 
 .site-box>a>p {
-    color: #ffffff;
-    font-size: 24px;
-
-    text-shadow:
-        1px 1px 2px #F71052,
-        0 0 1em #3300eb,
-        0 0 0.2em #72C4C9;
-    position: relative;
-    top: 15px;
-}
-
-.site-box:hover>a>p {
-    text-decoration: underline 2px;
+    background-color: #ffffffe6;
+    border: 1px dashed #8f8f8f;
+    border-radius: 10px;
+    padding: 3px;
+    width: 150px;
+    color: #000;
+    position: absolute;
+    top: 35px;
+    right: -100px
 }
 
 .site-box>a>span {
-    display: none;
-    /* color: #fff;
-    font-style: italic;
-    font-size: 12px;
-    top: 10px; */
+    display: none
 }
 
 .site-box:after {
     content: url(https://maneko.nekoweb.org/maneko.dev/sitebox/felicia-cute2x.gif);
-    position: relative;
-    top: 42px;
-    right: 50px;
-}
-
-.site-box:hover:after {
-    content: url(https://maneko.nekoweb.org/maneko.dev/sitebox/fdizzy2x.gif);
-    position: relative;
-    top: -35px;
-    left: 5px;
+    transform: scale(1.2);
+    position: absolute;
+    bottom: 5px;
+    left: -5px
 }
 
 .site-box::before {
     content: "♡ be happy ♡";
-    color: #5873A9;
     font-size: 13px;
-    position: relative;
-    top: 2px;
-    left: 65px;
-    background-color: #ffffff;
-    padding: 2px 10px 0px 10px;
-    border: 1px dashed #8F8F8F;
-    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background-color: #ffffffe6;
+    padding: 2px;
+    border: 1px dashed #8f8f8f;
+    border-radius: 10px
 }
 
-/* Style for your post box (must start with ".post-box") */
-/* Style for your post box (must start with ".post-box") */
 .post-box {
     background-image: url(https://maneko.nekoweb.org/maneko.dev/media/daybg.png);
-    /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
-    background-repeat: no-repeat;
-    background-position: 50% 44%;
-    border: 5px ridge #f71052;
-    border-radius: 25px;
+    background-size: 50%;
+    background-position: 50% 50%;
+    border: 1px dashed #8f8f8f;
+    border-radius: 15px;
+    text-shadow: 0 0 2px #5873a9;
     line-height: 12px;
-    letter-spacing: 2px;
-    text-shadow: 0px 0px 2px #5873a9;
-    overflow: hidden;
-}
-
-.post-box:hover {
-    background-image: url(https://maneko.nekoweb.org/maneko.dev/media/rainbg.png);
-    background-size: cover;
-    background-position: 50% 54%;
-    border: 5px ridge #67b6bd;
+    color: #000
 }
 
 .post-box .post-title {
-    color: #3c3e3f;
-    font-size: 21px;
-    font-family: consolas, monospace;
-    text-shadow: 1px 1px 1px #f71052;
-    text-align: center;
-    text-decoration: underline;
-
+    letter-spacing: 5px;
+    font-size: 21px
 }
 
-.post-box:hover .post-title {
-    text-shadow: 1px 1px 1px #67b6bd;
-}
-
-.post-box .post-description {
-    color: #3c3e3f;
-    text-align: justify;
-}
-
-.post-box span.post-date,
-.post-box .post-author,
-.post-box .post-dot {
-    color: #5873a9;
-}
-
-.post-box .post-box-inner {
+.post-box div.post-box-inner {
     padding: 5px;
     width: 700px;
     background-color: #ffffffe6;
     border: 1px dashed #8f8f8f;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #67b6bd;
-    float: right;
+    margin-left: 190px
 }
 
 .post-box:after {
+    image-rendering: pixelated;
     content: url(https://maneko.nekoweb.org/maneko.dev/sitebox/felicia-cute2x.gif);
     position: absolute;
-    top: 40px;
-    left: 24px;
-    transform: scale(1.2)
+    transform: scale(1.4);
+    top: 18px;
+    left: 16px
 }

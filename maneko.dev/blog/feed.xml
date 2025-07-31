@@ -11,9 +11,31 @@
             <guid>1yrsmile</guid>
             <pubDate>Thu 31 Jul 2025, 04:00:00 -0400</pubDate>
             <style>
-                .post-box .post-title {
-                    color: red;
-                }
+              .post-box {
+                background-color: #f07fb3;
+                border: 5px dashed #000;
+                border-radius: 15px;
+                line-height: 12px;
+                color: #000;
+            } 
+              .post-box .post-title {
+                letter-spacing: 5px;
+                font-size: 21px;
+              }
+              .post-box div.post-box-inner {
+                  padding: 5px;
+                  width: 700px;
+                  background-color: #ffffffe6;
+                  border-radius: 10px;
+                  margin-left: 190px;
+              }
+              .post-box:after {
+                image-rendering: pixelated;
+                content: url(https://files.catbox.moe/mpi04x.gif);
+                position: absolute;
+                top: -70px;
+                left: -40px;
+              }
             </style>
         </item>
     </channel>
