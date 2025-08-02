@@ -3,13 +3,12 @@
   src: url("/maneko.dev/fonts/basiic.ttf");
 }
 
-
-
 body {
-  font-family: ms pgothic, sans-serif;
+  font-family:
+    ms pgothic,
+    sans-serif;
   font-size: 13px;
 }
-
 
 .blog-wrap {
   display: flex;
@@ -31,7 +30,7 @@ body {
   border-radius: 10px;
   min-width: 250px;
   max-width: 800px;
-  height: 800px;
+  height: 650px;
   overflow: auto;
 }
 
@@ -39,7 +38,7 @@ body {
   border-radius: 10px;
   min-width: 250px;
   max-width: 800px;
-  height: 800px;
+  height: 650px;
   overflow: auto;
 }
 
@@ -51,13 +50,14 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: ms pgothic, sans-serif;
+  font-family:
+    ms pgothic,
+    sans-serif;
   padding: 2px 0px;
 }
 
 h1 {
   text-align: center;
-
 }
 
 p {
