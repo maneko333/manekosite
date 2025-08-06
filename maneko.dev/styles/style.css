@@ -12,6 +12,18 @@
     url("/fonts/MS-PGothic.ttf");
 }
 
+@font-face {
+  font-family: "manekofont";
+  src:
+    url("/fonts/ManekoWriting.ttf");
+}
+
+@font-face {
+  font-family: "manekopixel";
+  src:
+    url("/fonts/Mko.ttf");
+}
+
 :root {
   --accent1: #f71052;
   --accent2: #8f8f8f;
@@ -130,6 +142,24 @@ body {
 .navigation ul {
   list-style-type: none;
   padding: 0;
+}
+
+.updates ul {
+  margin: 0px;
+  padding: 3px;
+}
+
+.updates ul li {
+  list-style: none;
+  padding: 3px 0px;
+}
+
+.updates h3 {
+
+  font-family: 'mspg';
+  font-size: 16px;
+  margin-top: 0px;
+
 }
 
 .copy-right p {

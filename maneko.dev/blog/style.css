@@ -5,43 +5,18 @@
     url("/fonts/MS-PGothic.ttf");
 }
 
-/* body {
+@font-face {
+  font-family: "manekofont";
+  src:
+    url("/fonts/ManekoWriting.ttf");
+}
+
+@font-face {
+  font-family: "manekopixel";
+  src:
+    url("/fonts/Mko.ttf");
+}
+
+body {
   font-family: 'mspg';
-  font-size: 13px;
 }
-
-.blog-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.big-title {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.box-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #ffffffd8;
-  border: 5px dashed #000;
-  border-radius: 10px;
-  min-width: 250px;
-  max-width: 800px;
-  height: 650px;
-  overflow: auto;
-}
-
-.box {
-  border-radius: 10px;
-  min-width: 250px;
-  max-width: 800px;
-  height: 650px;
-  overflow: auto;
-}
-
-.content {
-  padding: 10px;
-} */

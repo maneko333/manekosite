@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<!-- 
+<!--
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⡶⢶⣦⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠸⣯⣀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠷⠶⠦⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -35,26 +35,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="blog/style.css" rel="stylesheet" type="text/css" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
   <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
   <title>maneko | screaming </title>
   <style>
+    html,
+    body,
+    * {
+      background-color: transparent;
+      background-image: none;
+    }
+
+    body {
+      display: inline;
+    }
+
+    /* .entries {
+      background-color: aqua;
+      width: 500px;
+      height: 300px;
+      position: fixed;
+      top: 300px;
+      right: 100px;
+    } */
+
     ul li {
       list-style-type: '✿ ';
-      font-size: 12px;
+    }
+
+    ul li::marker {
+      font-size: 16px;
+      color: var(--black);
+    }
+
+    a {
+      color: var(--black);
+      text-shadow: 1px 1px 2px var(--accent2);
+    }
+
+    h1 {
+      font-family: 'mspg';
+      font-size: 16px;
+      padding: 0px;
+      margin: 0px;
     }
   </style>
 </head>
 
 <body>
-  <a href="javascript:history.back()">go back?</a>
+
+  <!-- <a href="https://maneko.dev/home">go home?</a> -->
   <h1>under construction for now (ﾉ◕ヮ◕)ﾉ*:･ﾟ*</h1>
-  <p>i WILL b sharing my thoughts and u WILL read them</p>
-  <p>i'll decorate this stuff eventually</p>
-  <ul>
-    <li>
-      <p>7.27.25 | <a href="/blog/2025/1yrsmile.html">1 year with SMILE :D by Porter Robinson</a></p>
-    </li>
-  </ul>
+  <div class="entries">
+    <p>i WILL b sharing my thoughts and u WILL read them</p>
+    <p>i'll decorate this and make it on a separate page eventually</p>
+
+    <ul>
+      <li>
+        <span id="em2">7.27.25</span> | <a href="/blog/2025/1yrsmile.html" target="_top">1 year with SMILE :D by
+          Porter Robinson</a>
+      </li>
+    </ul>
+  </div>
 </body>
 
 </html>
