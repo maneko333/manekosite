@@ -5,6 +5,11 @@
     url("/fonts/MS-PGothic.ttf");
 }
 
+@font-face {
+  font-family: cherry;
+  src: url("/fonts/Cherrybomb.ttf");
+}
+
 /* body {
   font-family: 'mspg';
   font-size: 13px;

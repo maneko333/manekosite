@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="/blog/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
   <title>OnE yEaR SmiLE :D</title>
 
   <style>
@@ -20,11 +23,13 @@
       margin: 0;
       overflow-x: hidden;
       overflow-y: auto;
+      --blog-top: 140px;
     }
 
 
     .banner {
       width: 100%;
+      max-width: 550px;
       padding: 20px;
       box-sizing: border-box;
       z-index: 2;
@@ -32,32 +37,33 @@
     }
 
     .banner h1 {
-      font-size: 36px;
+      /* font-family: "Rubik Glitch"; */
+      font-size: 32px;
       color: #fff;
-      text-shadow:
+      /* text-shadow:
         1px 1px #000,
         -1px 1px #000,
         1px -1px #000,
-        -1px -1px #000;
+        -1px -1px #000; */
       margin: 0;
     }
 
     .blog {
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 20px;
       background: #ffffffd8;
       border: 5px dashed #000;
       border-radius: 10px;
-      padding: 5px 10px;
       width: 100%;
       max-width: 800px;
       height: 70vh;
       max-height: calc(100vh - 120px);
+      margin-top: 20px;
       box-sizing: border-box;
-      overflow-y: auto;
-      overflow-x: hidden;
-      position: relative;
+      overflow: auto;
       z-index: 1;
     }
 
@@ -67,7 +73,9 @@
     }
 
     .nav {
-      text-align: center;
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
     }
 
     #bullet {
@@ -75,15 +83,15 @@
     }
 
     a {
-      color: #fff;
       font-size: 20px;
+      color: #fff;
+
     }
 
     h1 {
       font-size: 32px;
     }
 
-    h1,
     h2,
     h2 {
       color: #fff;
@@ -114,26 +122,44 @@
       text-shadow: 1px 1px 1px #f07fb3;
     }
 
+    .sticker {
+      position: absolute;
+      top: calc(var(--blog-top, 0px) - 285px);
+      left: calc(50% - (min(100%, 800px) / 2) + -225px);
+      transform: scale(.3);
+      filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+      z-index: 3;
+      pointer-events: none;
+    }
+
     .behind {
-      z-index: -1;
-      image-rendering: pixelated;
       position: fixed;
+      bottom: 10px;
+      right: 10px;
       transform: scale(2);
-      bottom: 0;
-      right: 0;
+      image-rendering: pixelated;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .behind img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      animation: spin 10s linear infinite;
     }
   </style>
 </head>
 
 <body>
   <div class="banner">
-    <h1>One
-      year with SMILE:D by Porter Robinson<img id="bullet"
-        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWc4ZmJ2OGl5dXppeHloN3h0aHN1d29uaXI5MHFlb2VsYnlrcXFpMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/YkJSK2AMCMWEHjO3dR/giphy.gif" />
-    </h1>
+    <h1>One year with SMILE! :D by Porter Robinson </h1>
   </div>
+  <img src="https://files.catbox.moe/5rzams.gif" class="sticker" />
   <div class="blog">
+
     <div class="content">
+
       <h4>*i will format this better later*</h4>
 
       <p>
@@ -390,6 +416,7 @@
       </p>
     </div>
   </div>
+
   <div class="nav">
     <a href="/home.html">home</a>
     |
