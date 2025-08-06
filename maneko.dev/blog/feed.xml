@@ -27,5 +27,15 @@
             }
             </style>
         </item>
+
+        <item>
+            <title>Tidied up blog page</title>
+            <description>tidied up blog page and perfected my SMILE! :D review page. also added an archive page where i will post old layouts and stuff</description>
+            <link>https://maneko.dev/</link>
+            <guid>post2</guid>
+            <pubDate>Wed 06 Aug 2025, 20:00:00 -0400</pubDate>
+        </item>
+
+
     </channel>
 </rss>
