@@ -1,12 +1,12 @@
 @font-face {
-  font-family: basiic;
-  src: url("/maneko.dev/fonts/basiic.ttf");
+  font-family: "mspg";
+  src:
+    local("ms pgothic"),
+    url("/fonts/MS-PGothic.ttf");
 }
 
-body {
-  font-family:
-    ms pgothic,
-    sans-serif;
+/* body {
+  font-family: 'mspg';
   font-size: 13px;
 }
 
@@ -44,22 +44,4 @@ body {
 
 .content {
   padding: 10px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family:
-    ms pgothic,
-    sans-serif;
-  padding: 2px 0px;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  padding: 5px 0px;
-}
+} */
