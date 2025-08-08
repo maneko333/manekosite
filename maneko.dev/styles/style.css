@@ -7,21 +7,17 @@
 
 @font-face {
   font-family: "mspg";
-  src:
-    local("ms pgothic"),
-    url("/fonts/MS-PGothic.ttf");
+  src: local("ms pgothic"), url("/fonts/MS-PGothic.ttf");
 }
 
 @font-face {
   font-family: "manekofont";
-  src:
-    url("/fonts/ManekoWriting.ttf");
+  src: url("/fonts/ManekoWriting.ttf");
 }
 
 @font-face {
   font-family: "manekopixel";
-  src:
-    url("/fonts/Mko.ttf");
+  src: url("/fonts/Mko.ttf");
 }
 
 :root {
@@ -50,7 +46,7 @@ body {
   background-image: url(/media/daybg.png);
   background-repeat: repeat;
   background-size: cover;
-  font-family: 'mspg';
+  font-family: "mspg";
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
@@ -134,7 +130,7 @@ body {
   border-radius: 10px;
 }
 
-.center>.bubble {
+.center > .bubble {
   height: 475px;
   padding: 3px;
 }
@@ -155,11 +151,9 @@ body {
 }
 
 .updates h3 {
-
-  font-family: 'mspg';
+  font-family: "mspg";
   font-size: 16px;
   margin-top: 0px;
-
 }
 
 .copy-right p {
