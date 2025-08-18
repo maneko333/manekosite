@@ -12,12 +12,14 @@
 
 @font-face {
   font-family: "manekofont";
-  src: url("/fonts/ManekoWriting.ttf");
+  src:
+    url("/fonts/ManekoWriting.ttf");
 }
 
 @font-face {
   font-family: "manekopixel";
-  src: url("/fonts/Mko.ttf");
+  src:
+    url("/fonts/Mko.ttf");
 }
 
 :root {
@@ -130,7 +132,7 @@ body {
   border-radius: 10px;
 }
 
-.center > .bubble {
+.center>.bubble {
   height: 475px;
   padding: 3px;
 }
@@ -349,4 +351,62 @@ a {
 ::selection {
   color: white;
   background: var(--dark);
+}
+
+
+/* blog stuff */
+
+.blogtitle h1 {
+  font-size: 32px;
+  color: var(--black);
+  text-shadow:
+    1px 1px var(--light),
+    -1px 1px var(--light), 1px -1px var(--light),
+    -1px -1px var(--light);
+}
+
+.blog {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10px; */
+  background-color: var(--light);
+  border: 1px dashed var(--accent2);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  height: 70vh;
+  max-height: calc(100vh - 120px);
+  margin-top: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  z-index: 1;
+}
+
+.blogcontent {
+  padding: 10px;
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.blogcontent p {
+  font-family: verdana;
+  color: var(--black);
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.blognav {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.blognav a {
+  font-size: 20px;
+  color: white;
 }
