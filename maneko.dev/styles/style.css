@@ -25,8 +25,9 @@
 :root {
   --accent1: #f71052;
   --accent2: #8f8f8f;
+  --accent3: #639BFF;
   --dark: #5873a9;
-  --medium: #67b6bd;
+  --medium: #93bbff;
   --light: #ffffff;
   --black: #3c3e3f;
   --transwhite: #ffffffe6;
@@ -53,7 +54,7 @@ body {
   font-style: normal;
   font-size: 12px;
   text-align: justify;
-  color: var(--dark);
+  color: var(--black);
   box-sizing: border-box;
 }
 
@@ -244,8 +245,8 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--black);
   font-family: "cherry";
+  color: var(--black);
   text-shadow: 1px 1px 1px var(--medium);
   margin: 0px;
   /* padding-bottom: 3px; */
@@ -407,6 +408,37 @@ a {
 }
 
 .blognav a {
-  font-size: 20px;
-  color: white;
+  font-size: 32px;
+  color: var(--black);
+  text-shadow:
+    1px 1px var(--light),
+    -1px 1px var(--light), 1px -1px var(--light),
+    -1px -1px var(--light);
+}
+
+.yrnav {}
+
+.tab {
+  opacity: 45%;
+  font-size: 24px;
+  font-family: 'cherry';
+  border: none;
+  background: none;
+  color: var(--transwhite);
+  text-shadow:
+    1px 1px 3px var(--accent2),
+    -1px 1px 3px var(--accent2), 1px -1px 3px var(--accent2),
+    -1px -1px 3px var(--accent2);
+}
+
+.activeyear {
+  opacity: 100%;
+  font-size: 24px;
+  font-family: 'cherry';
+  border: none;
+  color: var(--transwhite);
+  text-shadow:
+    1px 1px 2px var(--accent1),
+    -1px 1px 2px var(--accent1), 1px -1px 2px var(--accent3),
+    -1px -1px 2px var(--accent3);
 }

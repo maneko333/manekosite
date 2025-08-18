@@ -1,63 +1,34 @@
 <!doctype html>
 <html>
-<!--
-
-⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⡶⢶⣦⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠸⣯⣀⠀⠀⠀⠉⠉⠛⠛⠛⠛⠛⠛⠷⠶⠦⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠻⠷⠶⠦⢤⣤⣤⣤⣄⣀⣀⣀⣀⣀⣩⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣿⣿⡄⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣾⠛⠉⠀⠈⣿⡄⠀⣸⡋⠉⠛⠳⣿⣷⡶⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠐⠶⠾⠶⣶⣄⡿⠁⠀⠀⠀⠀⠘⠿⠛⠛⠿⣦⣄⠀⠀⠀⠀⠀⠹⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣀⣠⣤⠉⠁⠀⠀⣀⣀⠀⠀⠀⠀⢰⡾⠋⠁⠀⠀⠀⠀⠀⠀⢽⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠘⠛⠋⠁⣤⡆⣴⠿⣻⣽⣷⠀⠀⠀⠘⣿⡶⠶⠶⠶⢶⣄⡀⠀⠙⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢘⣟⠀⠉⢸⡟⠈⣿⠀⠀⣼⣟⣋⠁⠀⠀⠀⠀⢹⣏⠀⠀⢸⣇⣶⢶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⣿⡄⠀⠘⣷⣴⡟⠀⠀⠀⠉⠛⠛⠂⠀⠀⠀⢈⣿⠀⠀⢸⣿⠏⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢣⣇⠀⠀⠀⠀⢴⣶⠶⣶⡄⠀⠀⠀⠀⠀⠀⣼⡏⠀⢀⣿⠃⢀⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢫⣢⡀⠀⠀⠈⢻⣇⢹⡇⠀⠀⠀⠀⠀⠀⡿⠁⢀⣾⠟⠀⠘⢻⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠈⢿⣦⣄⠀⠈⢻⣾⡇⠀⠀⠀⠀⠀⠀⠀⢰⣾⣏⠀⠀⠀⣀⣽⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣈⡊⢒⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⡀⠀⠈⢿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣀⣼⠟⠁⠈⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠻⠷⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⣀⣾⠿⣧⡼⠟⠁⠀⣀⣤⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⣰⠿⠛⠻⣧⡀
-⠀⣾⡛⠛⠾⠋⠁⢀⣤⣶⠟⠉⢹⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⡇⣤⣶⠾⢻⣦⡀⠀⠀⠀⠀⢰⡟⠁⠀⠀⢸⣧
-⠀⠘⣿⠇⠀⢀⣴⠿⠋⠀⠀⠀⠀⠈⢿⣶⠶⣶⠶⡶⠶⠶⡾⢻⣷⣴⠛⠁⠀⠀⠘⣷⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⣿
-⠀⠀⠿⠶⠶⠿⠃⠀⠀⠀⠀⠀⠀⠀⡿⠃⣾⠏⠀⡯⠀⠀⣿⡄⠉⠁⣀⣰⡶⠀⠀⣿⠀⠀⠀ ⠀⣾⠃⠀⠀⠀⢠⡿
-⠀⠀⠀⠀⠀⠀⠀⠀⢠⣤⣤⣤⡄⣾⠟⢸⡿⠀⠀⣿⡆⠀⢸⣷⣶⣿⢿⣿⠀⠀⢠⣿⠀⠀⢠⣾⡿⠀⠀⠀⠀⢸⡇
-⠀⠀⠀⠀⠀⠀⠀⡾⢿⠉⣭⠛⣿⡏⢀⣾⠂⠀⠀⠸⣷⠀⠀⠀⠘⠷⣶⣽⣿⣿⣿⣥⣤⣶⠿⠋⠀⠀⠀⢀⡼⠂⠀
-⠀⠀⠀⠀⠀⠀⢸⡿⢏⣶⣏⠀⠀⠀⢨⡇⠀⠀⠀⠀⠘⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠴⠉⠀
-⠀⠀⠀⠀⠀⠀⠀⢿⣮⣛⣛⣀⣀⣀⣰⡇⠀⠀⠀⠀⠀⠀⠛⠿⠶⢦⣤⣤⣤⣀⣀⣀⣀⣤⣤⡴⠋⠁⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀
-                                                                                        -->
-
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="blog/style.css" rel="stylesheet" type="text/css" /> -->
-  <link href="styles/style.css" rel="stylesheet" type="text/css" />
-  <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
-  <title>maneko | screaming </title>
+  <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+
   <style>
-    html,
-    body,
-    * {
-      background-color: transparent;
-      background-image: none;
-    }
-
     body {
-      display: inline;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      --blog-top: 140px;
     }
 
-    /* .entries {
-      background-color: aqua;
+    .blog {
+      background-color: var(--transwhite);
+      min-height: 150px;
+      height: 50vh;
       width: 500px;
-      height: 300px;
-      position: fixed;
-      top: 300px;
-      right: 100px;
-    } */
+    }
+
+    .blog p {
+      font-family: 'mspg';
+      font-size: 12px;
+    }
 
     ul li {
       list-style-type: '✿ ';
@@ -80,25 +51,60 @@
       margin: 0px;
     }
   </style>
+  <script>
+    function changeYear(evt, year) {
+      var i, x, yrlinks;;
+      x = document.getElementsByClassName("year");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      yrlinks = document.getElementsByClassName("yrlink");
+      for (i = 0; i < x.length; i++) {
+        yrlinks[i].className = yrlinks[i].className.replace(" activeyear", "");
+      }
+      document.getElementById(year).style.display = "block";
+      evt.currentTarget.className += " activeyear";
+    }
+  </script>
+
 </head>
 
 <body>
+  <div class="blogtitle">
+    <img src="/media/blogbanner.png">
+  </div>
+  <div class="blog">
+    <div class="blogcontent">
 
-  <!-- <a href="https://maneko.dev/home">go home?</a> -->
-  <h1>under construction for now (ﾉ◕ヮ◕)ﾉ*:･ﾟ*</h1>
-  <div class="entries">
-    <p>i WILL b sharing my thoughts and u WILL read them</p>
-    <p>i'll decorate this and make it on a separate page eventually</p>
+      <div class="yrnav">
+        <button class="tab yrlink activeyear" onclick="changeYear(event,'2025')">2025</button>
+        <button class="tab yrlink" onclick="changeYear(event,'2026')">2026</button>
+      </div>
 
-    <ul>
-      <li>
-        <span id="em2">8.17.25</span> | <a href="/blog/2025/mcr.html" target="_top">Long Live the Black Parade...</a>
-      </li>
-      <li>
-        <em>7.27.25</em> | <a href="/blog/2025/1yrsmile.html" target="_top">1 year with SMILE :D by
-          Porter Robinson</a>
-      </li>
-    </ul>
+      <p>i WILL b sharing my thoughts and u WILL read them!! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</p>
+
+      <div id="2025" class="year">
+        <ul>
+          <li>
+            <span id="em2">8.17.25</span> | <a href="/blog/2025/mcr.html" target="_top">Long Live the Black
+              Parade...</a>
+          </li>
+          <li>
+            <em>7.27.25</em> | <a href="/blog/2025/1yrsmile.html" target="_top">1 year with SMILE :D by
+              Porter Robinson</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="2026" class="year" style="display:none">
+        <p>wow can't wait! i will hide for now (*/ω＼*)</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="blognav">
+    <a href="/home.html">home</a>
   </div>
 </body>
 

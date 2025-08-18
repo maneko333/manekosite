@@ -5,13 +5,38 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/blog/style.css" rel="stylesheet" type="text/css" />
+  <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      --blog-top: 140px;
+    }
+  </style>
 </head>
 
 <body>
-  <article>
+  <div class="blogtitle">
+    <h1> </h1>
+  </div>
+  <div class="blog">
+    <div class="blogcontent">
+      <article>
 
-  </article>
+      </article>
+    </div>
+  </div>
+
+  <div class="blognav">
+    <a href="/blog.html">back</a>
+    <a href="/home.html">home</a>
+  </div>
+
 </body>
 
 </html>
